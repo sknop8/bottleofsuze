@@ -1,0 +1,30 @@
+/*------------menu stuff--------------*/
+#header{
+	line-height:20px;
+}
+
+.sub-menu-option {
+	font-size: 6pt;	
+}
+.sub-menu-option:hover{
+	background-color: var(--dropdownBackgroundLight);
+}
+
+/*-----------project stuff----------*/
+.project-title{
+	font-size: 12pt;
+}
+.project-blurb{
+	font-size:10pt;
+	line-height: 20px;
+}
+.project-description{
+	font-size:9pt;
+}
+#non-project-description{
+	font-size:9pt;
+}
+
+/*---------thumbnail stuff--------------*/
+
+

@@ -1,0 +1,1348 @@
+{
+	"home":{
+		"type":"single",
+		"section":"bottle-of-suze",
+		"project menu": true,
+		"description":"Welcome to Bottle of Suze! My name is <span class='emph'>Suzanne Knop</span>, I'm a sophomore studying Digital Media Design at the University of Pennsylvania, and this is where I put all my stuff!<br><br><b>Check out some of my recent projects below!</b>",
+		"content":[
+    		{
+				"project-title":"VR Subliminal Eye Movement Research",
+				"thumbnail": "images/coding/vr eyetracking/oculus-s.JPG",
+				"project-blurb":"investigation of subliminal eyetracking for VR applications",
+				"project-description":"During the summer of 2016, I worked on this subliminal eye movement research project with another student under Dr. Stephen Lane at the University of Pennsylvania. The project objective was to draw conclusions about sublimal eye movements in virtual reality environments that could ultimately be used in industry to enhance gameplay control. We used an Oculus Rift specially fitted with an SMI EyeTracker to conduct tests. Test \"games\" were created in Unity, and Processing was used for data visualization. <br><br>May-August 2016",
+				"group":"eyetracking",
+				"project content":[
+					{
+						"title":"",
+						"description":"The Oculus Rift retrofitted with an SMI EyeTracker, which we used to track the user's gaze during tests.",
+						"bigpic":"images/coding/vr eyetracking/oculus.JPG",
+						"smallpic": "images/coding/vr eyetracking/oculus-s.JPG",
+						"group":"eyetracking"
+					}, 
+					{
+						"title":"",
+						"description":"Will using the Oculus",
+						"bigpic":"images/coding/vr eyetracking/will playing.JPG",
+						"smallpic":"images/coding/vr eyetracking/will playing-s.JPG",
+						"group":"eyetracking"
+					},
+					{
+						"title":"",
+						"description":"Dr. Lane using the Oculus",
+						"bigpic":"images/coding/vr eyetracking/lane playing.JPG",
+						"smallpic":"images/coding/vr eyetracking/lane playing-s.JPG",
+						"group":"eyetracking"
+					},
+					{
+						"title":"",
+						"description":"Graph of stimuli: angle spawned v. angle killed. Higher spawn angles indicate stimuli farther out in the perephery, and higher kill angles mean the stimuli disappear more quickly. Our focus for this iteration of tests was the blue dots, or the instances in which the user looked at the stimulus but did not indicate that they saw the stimulus (via pressing a keyboard button).",
+						"bigpic":"images/coding/vr eyetracking/graph.JPG",
+						"smallpic":"images/coding/vr eyetracking/graph-s.JPG",
+						"group":"eyetracking"
+					},
+					{
+						"title":"",
+						"description":"Me, Will, and Ben Franklin",
+						"bigpic":"images/coding/vr eyetracking/me will ben.JPG",
+						"smallpic":"images/coding/vr eyetracking/me will ben-s.JPG",
+						"group":"eyetracking"
+					},
+					{
+						"title":"<img class='play'>",
+						"description":"A heatmap of the user's gaze during an earlier phase of testing. White, is the user's gaze, red is the point which the user was told to focus on, blue are the stimuli shown in the periphery of the user's vision. Yellow squares appear in the bottom left whenever the user presses a button to indicate they saw the stimulus. This application was written in Java using Processing.",
+						"bigpic":"https://vimeo.com/178522643",
+						"smallpic":"images/coding/vr eyetracking/heatmap thumb-s.png",
+						"group":"eyetrackingV"
+					}
+				]
+			},
+			{
+				"project-title":"Music xx",
+				"thumbnail": "images/coding/musicxx/desert scene-s.png",
+				"project-blurb":"a javascript music visualization web app",
+				"project-description":"This is a music visual accompaniment application that combines music, you, and your memories i.e. music x you x environment: Music xx. When I listen to music from my past, I often think of my surroundings at the time I first listened to that music. The goal of Music xx is to enrich the music listening/reminiscing experience. <br><br>This was the final project for the Javascript course I took in Spring 2015. <br><br><strong>What I used:</strong> Spotify API, ThreeJS, Backbone, Handlebars<br><br>Try it out <a href='https://sknop8.github.io/Music-xx' target='_blank'>here!</a>",
+				"group":"musicxx",
+				"project content":[
+					{
+						"title":"",
+						"description":"Login page",
+						"bigpic":"images/coding/musicxx/login page.png",
+						"smallpic": "images/coding/musicxx/login page-s.png",
+						"group":"musicxx"
+					}, 
+					{
+						"title":"",
+						"description":"Connect Spotify",
+						"bigpic":"images/coding/musicxx/connect spotify.png",
+						"smallpic": "images/coding/musicxx/connect spotify-s.png",
+						"group":"musicxx"
+					},
+					{
+						"title":"",
+						"description":"Desert scene",
+						"bigpic":"images/coding/musicxx/desert scene.png",
+						"smallpic": "images/coding/musicxx/desert scene-s.png",
+						"group":"musicxx"
+					},
+					{
+						"title":"",
+						"description":"Ocean scene",
+						"bigpic":"images/coding/musicxx/ocean scene.png",
+						"smallpic": "images/coding/musicxx/ocean scene-s.png",
+						"group":"musicxx"
+					},
+					{
+						"title":"",
+						"description":"Museum scene",
+						"bigpic":"images/coding/musicxx/room scene.png",
+						"smallpic": "images/coding/musicxx/room scene-s.png",
+						"group":"musicxx"
+					},
+					{
+						"title":"",
+						"description":"City scene",
+						"bigpic":"images/coding/musicxx/city scene.png",
+						"smallpic": "images/coding/musicxx/city scene-s.png",
+						"group":"musicxx"
+					}
+				]
+			},
+			{
+				"project-title":"Bottle of Suze site",
+				"thumbnail":  "images/coding/bottle of suze/content page-s.png",
+				"project-blurb":"personal website/portfolio",
+				"project-description":"This site is a complete revamp of an old personal website I had written in 2013. After learning way more Javascript during my freshmen year at Penn, I wrote this in July/August of 2016. Both content (via JSON parsing) and templating (via Backbone) are much more modifiable this time! <br><br><strong>What I used:</strong> Javascript/HTML/CSS, jQuery, Backbone, Handlebars, fancyBox, Bootstrap<br><br>Source code <a href='https://sknop8@bitbucket.org/sknop8/bottleofsuze.git' target='_blank'>here</a><br><br>Created summer 2016",
+				"group":"this-site",
+				"project content":
+					[
+						{
+							"title":"",
+							"description":"content page example",
+							"bigpic":"images/coding/bottle of suze/content page.png",
+							"smallpic": "images/coding/bottle of suze/content page-s.png",
+							"group":"bottleofsuzesite"
+						},
+					
+						{
+							"title":"",
+							"description":"project menu example (hovering on st. vincent)",
+							"bigpic":"images/coding/bottle of suze/project menu.png",
+							"smallpic": "images/coding/bottle of suze/project menu-s.png",
+							"group":"bottleofsuzesite"
+						},
+						{
+							"title":"",
+							"description":"expanded project info example",
+							"bigpic":"images/coding/bottle of suze/expanded project info.png",
+							"smallpic": "images/coding/bottle of suze/expanded project info-s.png",
+							"group":"bottleofsuzesite"
+						},	
+						{
+							"title":"",
+							"description":"media viewing example (using fancyBox)",
+							"bigpic":"images/coding/bottle of suze/picture view.png",
+							"smallpic": "images/coding/bottle of suze/picture view-s.png",
+							"group":"bottleofsuzesite"
+						}
+					]
+			}
+		]
+
+    }, 
+    "about": {
+    	"type":"single",
+    	"section":"about", 
+    	"project menu": false,         
+    	"description":"<div id='aboutDiv'><b>about me</b><br>Hi! My name is Suzanne, I'm a sophomore pursuing a BSE in Digital Media Design at the University of Pennsylvania. I like programming, art, 3D modeling, listening to Beach House and making music videos, and I like doing everything at the same time. So far in my life I have felt these major entities (computer science, art, music) influencing me, pulling me in different directions. Moving forward, I hope to kcombine them as a way to reflect my own mixed identity.<br><br><b>links to stuff</b><li><a href='https://sknop8.github.io/Music-xx' target='_blank'>Music xx</a> Music visualization app I made in Spring 2016</li><li><a href='https://www.etsy.com/shop/bottleofsuze' target='_blank'>Bottle of Suze Etsy shop</a> My Etsy shop - originally designed shirts & prints</li><li><a href='https://youtu.be/zJeW3rsiyq8' target='_blank'>(Wo)man Up</a> Public installation piece another student and I made concerning gender inequality</li><li><a href='https://youtu.be/hzD3V64MkIg' target='_blank'>Project Inspiration: Portraiture</a> A project I did on portraiture in writing, visual art, and music</li><li><a href='https://apah.wikispaces.com/Don%27t+Go+with+the+Crowd' target='_blank'>Don't Go with the Crowd</a> Art History paper/blog post I wrote about crowd portrayal in art</li><br><b>contact me here</b><br>sknop@seas.upenn.edu<br><br><b>about this site</b><br>This website was built and designed by me. It is named after <a href='http://kemperartmuseum.wustl.edu/collection/explore/artwork/1105' target='_blank'><i>La bouteille de Suze</i>, 1912</a>, a Picasso still life. All the work shown is my own, or part of a team project with which I was a major part of. Pls enjoy!</div>",
+    	"content":[             
+    		{
+    			"title":"",
+				"description":"me in front of my senior project exhibition (december 2014)",
+				"bigpic":"images/about me/IMG_0972.PNG",
+				"smallpic": "images/about me/IMG_0972-s.png",
+				"group":"about"
+    		},
+    		{
+    			"title":"",
+				"description":"me at the louvre in front of a cimabue having the time of my life (july 2015)",
+				"bigpic":"images/about me/louvre.JPG",
+				"smallpic": "images/about me/louvre-s.JPG",
+				"group":"about"
+    		},
+    		{
+    			"title":"",
+				"description":"me and my growing brother at avenida paulista in s&atilde;o paulo (july 2016)",
+				"bigpic":"images/about me/sao paulo.JPG",
+				"smallpic": "images/about me/sao paulo-s.JPG",
+				"group":"about"
+    		}   
+    	]     
+    },     
+    "coding":{         
+    	"type":"single",
+    	"section":"coding",         
+    	"project menu": true,
+    	"description":"My major programming projects",         
+    	"content":[
+    	{
+				"project-title":"VR Subliminal Eye Movement Research",
+				"thumbnail": "images/coding/vr eyetracking/oculus-s.JPG",
+				"project-blurb":"investigation of subliminal eyetracking for VR applications",
+				"project-description":"During the summer of 2016, I worked on this subliminal eye movement research project with another student under Dr. Stephen Lane at the University of Pennsylvania. The project objective was to draw conclusions about sublimal eye movements in virtual reality environments that could ultimately be used in industry to enhance gameplay control. We used an Oculus Rift specially fitted with an SMI EyeTracker to conduct tests. Test \"games\" were created in Unity, and Processing was used for data visualization. <br><br>May-August 2016",
+				"group":"eyetracking",
+				"project content":[
+					{
+						"title":"",
+						"description":"The Oculus Rift retrofitted with an SMI EyeTracker, which we used to track the user's gaze during tests.",
+						"bigpic":"images/coding/vr eyetracking/oculus.JPG",
+						"smallpic": "images/coding/vr eyetracking/oculus-s.JPG",
+						"group":"eyetracking"
+					}, 
+					{
+						"title":"",
+						"description":"Will using the Oculus",
+						"bigpic":"images/coding/vr eyetracking/will playing.JPG",
+						"smallpic":"images/coding/vr eyetracking/will playing-s.JPG",
+						"group":"eyetracking"
+					},
+					{
+						"title":"",
+						"description":"Dr. Lane using the Oculus",
+						"bigpic":"images/coding/vr eyetracking/lane playing.JPG",
+						"smallpic":"images/coding/vr eyetracking/lane playing-s.JPG",
+						"group":"eyetracking"
+					},
+					{
+						"title":"",
+						"description":"Graph of stimuli: angle spawned v. angle killed. Higher spawn angles indicate stimuli farther out in the perephery, and higher kill angles mean the stimuli disappear more quickly. Our focus for this iteration of tests was the blue dots, or the instances in which the user looked at the stimulus but did not indicate that they saw the stimulus (via pressing a keyboard button).",
+						"bigpic":"images/coding/vr eyetracking/graph.JPG",
+						"smallpic":"images/coding/vr eyetracking/graph-s.JPG",
+						"group":"eyetracking"
+					},
+					{
+						"title":"",
+						"description":"Me, Will, and Ben Franklin",
+						"bigpic":"images/coding/vr eyetracking/me will ben.JPG",
+						"smallpic":"images/coding/vr eyetracking/me will ben-s.JPG",
+						"group":"eyetracking"
+					},
+					{
+						"title":"<img class='play'>",
+						"description":"A heatmap of the user's gaze during an earlier phase of testing. White, is the user's gaze, red is the point which the user was told to focus on, blue are the stimuli shown in the periphery of the user's vision. Yellow squares appear in the bottom left whenever the user presses a button to indicate they saw the stimulus. This application was written in Java using Processing.",
+						"bigpic":"https://vimeo.com/178522643",
+						"smallpic":"images/coding/vr eyetracking/heatmap thumb-s.png",
+						"group":"eyetrackingV"
+					}
+				]
+			},
+			{
+				"project-title":"Bottle of Suze site",
+				"thumbnail":  "images/coding/bottle of suze/content page-s.png",
+				"project-blurb":"personal website/portfolio",
+				"project-description":"This site is a complete revamp of an old personal website I had written in 2013. After learning way more Javascript during my freshmen year at Penn, I wrote this in July/August of 2016. Both content (via JSON parsing) and templating (via Backbone) are much more modifiable this time! <br><br><strong>What I used:</strong> Javascript/HTML/CSS, jQuery, Backbone, Handlebars, fancyBox, Bootstrap<br><br>Source code <a href='https://sknop8@bitbucket.org/sknop8/bottleofsuze.git' target='_blank'>here</a><br><br>Created summer 2016",
+				"group":"this-site",
+				"project content":
+					[
+						{
+							"title":"",
+							"description":"content page example",
+							"bigpic":"images/coding/bottle of suze/content page.png",
+							"smallpic": "images/coding/bottle of suze/content page-s.png",
+							"group":"bottleofsuzesite"
+						},
+					
+						{
+							"title":"",
+							"description":"project menu example (hovering on st. vincent)",
+							"bigpic":"images/coding/bottle of suze/project menu.png",
+							"smallpic": "images/coding/bottle of suze/project menu-s.png",
+							"group":"bottleofsuzesite"
+						},
+						{
+							"title":"",
+							"description":"expanded project info example",
+							"bigpic":"images/coding/bottle of suze/expanded project info.png",
+							"smallpic": "images/coding/bottle of suze/expanded project info-s.png",
+							"group":"bottleofsuzesite"
+						},	
+						{
+							"title":"",
+							"description":"media viewing example (using fancyBox)",
+							"bigpic":"images/coding/bottle of suze/picture view.png",
+							"smallpic": "images/coding/bottle of suze/picture view-s.png",
+							"group":"bottleofsuzesite"
+						}
+					]
+			},
+			{
+				"project-title":"Music xx",
+				"thumbnail": "images/coding/musicxx/desert scene-s.png",
+				"project-blurb":"a javascript music visualization web app",
+				"project-description":"This is a music visual accompaniment application that combines music, you, and your memories i.e. music x you x environment: Music xx. When I listen to music from my past, I often think of my surroundings at the time I first listened to that music. The goal of Music xx is to enrich the music listening/reminiscing experience. <br><br>This was the final project for the Javascript course I took in Spring 2015. <br><br><strong>What I used:</strong> Spotify API, ThreeJS, Backbone, Handlebars<br><br>Try it out <a href='https://sknop8.github.io/Music-xx' target='_blank'>here!</a>",
+				"group":"musicxx",
+				"project content":[
+					{
+						"title":"",
+						"description":"Login page",
+						"bigpic":"images/coding/musicxx/login page.png",
+						"smallpic": "images/coding/musicxx/login page-s.png",
+						"group":"musicxx"
+					}, 
+					{
+						"title":"",
+						"description":"Connect Spotify",
+						"bigpic":"images/coding/musicxx/connect spotify.png",
+						"smallpic": "images/coding/musicxx/connect spotify-s.png",
+						"group":"musicxx"
+					},
+					{
+						"title":"",
+						"description":"Desert scene",
+						"bigpic":"images/coding/musicxx/desert scene.png",
+						"smallpic": "images/coding/musicxx/desert scene-s.png",
+						"group":"musicxx"
+					},
+					{
+						"title":"",
+						"description":"Ocean scene",
+						"bigpic":"images/coding/musicxx/ocean scene.png",
+						"smallpic": "images/coding/musicxx/ocean scene-s.png",
+						"group":"musicxx"
+					},
+					{
+						"title":"",
+						"description":"Museum scene",
+						"bigpic":"images/coding/musicxx/room scene.png",
+						"smallpic": "images/coding/musicxx/room scene-s.png",
+						"group":"musicxx"
+					},
+					{
+						"title":"",
+						"description":"City scene",
+						"bigpic":"images/coding/musicxx/city scene.png",
+						"smallpic": "images/coding/musicxx/city scene-s.png",
+						"group":"musicxx"
+					}
+				]
+			},
+			{
+				"project-title":"Dinner Thyme",
+				"thumbnail": "images/coding/dinner thyme/start page-s.png",
+				"project-blurb":"cooking web game using Makey Makey",
+				"project-description":"This was my team's entry for Penn Play 2016, University of Pennsylvania's gaming hackathon! The theme was time, so we obviously had to make our game about thyme. The point of the game is to chop the thyme before the time runs out. We used a Makey Makey to turn a real cutting board with foil wrapped around it into part of the game, so the user could actually chop the cutting board with a metal knife identical to the one in the game. <br><br><strong>What we used:</strong> Javascript, Autodesk Maya, Makey Makey keyboard, puns <br><br>Try it out <a href='https://sknop8.github.io/DinnerThyme' target='_blank'>here!</a> (chop with spacebar)",
+				"group":"dinnerthyme",
+				"project content":[
+					{
+						"title":"",
+						"description":"Game start page",
+						"bigpic":"images/coding/dinner thyme/start page.png",
+						"smallpic": "images/coding/dinner thyme/start page-s.png",
+						"group":"dinnerthyme"
+					}, 
+					{
+						"title":"",
+						"description":"During the game",
+						"bigpic":"images/coding/dinner thyme/gameplay.png",
+						"smallpic": "images/coding/dinner thyme/gameplay-s.png",
+						"group":"dinnerthyme"
+					}, 
+					{
+						"title":"",
+						"description":"Our Makey Makey",
+						"bigpic":"images/coding/dinner thyme/makey makey.JPG",
+						"smallpic": "images/coding/dinner thyme/makey makey-s.JPG",
+						"group":"dinnerthyme"
+					}, 
+					{
+						"title":"",
+						"description":"End screen",
+						"bigpic":"images/coding/dinner thyme/end screen.png",
+						"smallpic": "images/coding/dinner thyme/end screen-s.png",
+						"group":"dinnerthyme"
+					}, 
+					{
+						"title":"",
+						"description":"Sally and me",
+						"bigpic":"images/coding/dinner thyme/me n sally.JPG",
+						"smallpic": "images/coding/dinner thyme/me n sally-s.JPG",
+						"group":"dinnerthyme"
+					}
+				]
+			}
+			
+    	]
+		
+	},
+	"digital art": {
+		"type":"main",
+		"section":"digital-art",
+		"project menu": false
+	},
+	"animation":{
+		"type":"sub",
+		"section":"digital-art",
+		"project menu": true,
+		"content":[
+			{
+				"project-title":"100 Million MV <br>[coming soon]",
+				"thumbnail": "images/blank.png",
+				"project-blurb":"handdrawn animated music video for \"100 Million\" by Charlie Hilton",
+				"project-description":"<strong>Created using:</strong> OpenToonz, Huion 810 drawing tablet<br><br>Summer 2016",
+				"group":"100million",
+				"project content":[
+				]
+			},
+			{
+				"project-title":"Rainy Day",
+				"thumbnail": "images/digital art/animation/rainy day/b1-s.png",
+				"project-blurb":"animated gif created in Photoshop ",
+				"project-description":"The starting point idea for this gif was inspired by the song \"Rainy Days\" by Late Night Alumni, which actually takes most of its lyrics from the poem \"The Rainy Day\" by Henry Wadsworth Longfellow. The gif is about that old childhood feeling of having created something great, only to discover that the idea isn't novel or great at all. The lyric \"the day is cold and dark and dreary\" stuck out to me, so this is the initial mood of the girl in the gif. The mood is temporarily overcome by her great idea, but afterwards she finds herself once again in the cold, dark, and dreary state she was in before.<br><br>Created Fall 2015",
+				"group":"rainyday",
+				"project content":[
+					{
+						"title":"<img class='play'>",
+						"description":"Animated gif",
+						"bigpic":"images/digital art/animation/rainy day/knop-proj2-big.gif",
+						"smallpic": "images/digital art/animation/rainy day/knop-proj2-big-s.gif",
+						"group":"rainyday"
+					}, 
+					{
+						"title":"",
+						"description":"Still #1",
+						"bigpic":"images/digital art/animation/rainy day/b1.png",
+						"smallpic": "images/digital art/animation/rainy day/b1-s.png",
+						"group":"rainyday"
+					}, 
+					{
+						"title":"",
+						"description":"Still #2",
+						"bigpic":"images/digital art/animation/rainy day/b2.png",
+						"smallpic": "images/digital art/animation/rainy day/b2-s.png",
+						"group":"rainyday"
+					},
+					{
+						"title":"",
+						"description":"Still #3",
+						"bigpic":"images/digital art/animation/rainy day/b3.png",
+						"smallpic": "images/digital art/animation/rainy day/b3-s.png",
+						"group":"rainyday"
+					},
+						{
+						"title":"",
+						"description":"Still #4",
+						"bigpic":"images/digital art/animation/rainy day/b4.png",
+						"smallpic": "images/digital art/animation/rainy day/b4-s.png",
+						"group":"rainyday"
+					},
+						{
+						"title":"",
+						"description":"Still #5",
+						"bigpic":"images/digital art/animation/rainy day/b5.png",
+						"smallpic": "images/digital art/animation/rainy day/b5-s.png",
+						"group":"rainyday"
+					},
+					{
+						"title":"",
+						"description":"Still #6",
+						"bigpic":"images/digital art/animation/rainy day/b6.png",
+						"smallpic": "images/digital art/animation/rainy day/b6-s.png",
+						"group":"rainyday"
+					}
+					
+				]
+			}
+		]
+	},
+	"modeling":{
+		"type":"sub",
+		"section":"digital-art",
+		"project menu": true,
+		"description":"3D modeling projects made with Autodesk Maya",
+		"content":[
+			{
+				"project-title":"St. Vincent", 
+				"thumbnail":"images/digital art/modeling/annie/5-2-16 img1-s.JPG",
+				"project-blurb":"3D model of St. Vincent based on her music video for \"Digital Witness\"",
+				"project-description":"<strong>Created using:</strong> Autodesk Maya<br>Spring 2016",
+				"group":"stv",
+				"project content":
+					[
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/digital art/modeling/annie/4-20-16 face update jpg.JPG",
+							"smallpic": "images/digital art/modeling/annie/4-20-16 face update jpg-s.JPG",
+							"group":"stv"
+						},
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/digital art/modeling/annie/5-1-16 img 2.JPG",
+							"smallpic": "images/digital art/modeling/annie/5-1-16 img 2-s.JPG",
+							"group":"stv"
+						},
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/digital art/modeling/annie/5-1-16 img 4.JPG",
+							"smallpic": "images/digital art/modeling/annie/5-1-16 img 4-s.JPG",
+							"group":"stv"
+						},
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/digital art/modeling/annie/5-2-16 img1.JPG",
+							"smallpic": "images/digital art/modeling/annie/5-2-16 img1-s.JPG",
+							"group":"stv"
+						},
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/digital art/modeling/annie/annie.0058.bmp",
+							"smallpic": "images/digital art/modeling/annie/annie.0058-s.bmp",
+							"group":"stv"
+						}
+					]
+			},
+			{
+				"project-title":"Fragonard Room",
+				"thumbnail":"images/digital art/modeling/fragonard/6-6-16 im1-s.JPG",
+				"project-blurb":"3D model of the \"Fragonard Room\" of the Frick Collection in NYC",
+				"project-description":"<strong>Created using:</strong> Autodesk Maya<br>Spring 2016",
+				"group":"fragonard",
+				"project content":
+					[
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/digital art/modeling/fragonard/6-6-16 im1.JPG",
+							"smallpic":"images/digital art/modeling/fragonard/6-6-16 im1-s.JPG",
+							"group":"fragonard"
+						},
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/digital art/modeling/fragonard/frag2.0043.002.png",
+							"smallpic": "images/digital art/modeling/fragonard/frag2-0043-002-s.png",
+							"group":"fragonard"
+						}
+		
+					]
+			},
+			{
+				"project-title":"Keurig",
+				"thumbnail":"images/digital art/modeling/keurig/im8_hi_qual-s.png",
+				"project-blurb":"3D model of my Keurig machine",
+				"project-description":"<strong>Created using:</strong> Autodesk Maya<br>Spring 2016",
+				"group":"keurig",
+				"project content":
+					[
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/digital art/modeling/keurig/im8_hi_qual.png",
+							"smallpic":"images/digital art/modeling/keurig/im8_hi_qual-s.png",
+							"group":"keurig"
+						},
+						{
+							"title":"<img class='play'>",
+							"description":"",
+							"bigpic":"https://vimeo.com/178153749",
+							"smallpic": "images/digital art/modeling/keurig/turntable thumb-s.png",
+							"group":"keurigV"
+						}
+		
+					]
+			}
+		]
+	},
+	"digital painting":{
+		"type":"sub",
+		"section":"digital-art",
+		"project menu": false,
+		"description":"Digital paintings and sketches, most were done on an iPad Air 2 using the app Procreate",
+		"content":[
+			{
+				"title":"2015", 
+				"description":"grumpy mug",
+				"bigpic":"images/digital art/digital painting/2015-05 grumpy mug.png",
+				"smallpic": "images/digital art/digital painting/2015-05 grumpy mug-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"sketch of annie clark",
+				"bigpic":"images/digital art/digital painting/2015-05 annie sketch.jpeg",
+				"smallpic": "images/digital art/digital painting/2015-05 annie sketch-s.jpeg",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"little cousin",
+				"bigpic":"images/digital art/digital painting/2015-04 gabriel sketch.jpeg",
+				"smallpic": "images/digital art/digital painting/2015-04 gabriel sketch-s.jpeg",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"",
+				"bigpic":"images/digital art/digital painting/2015-05 desk sketch.jpeg",
+				"smallpic":"images/digital art/digital painting/2015-05 desk sketch-s.jpeg",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"brother and cousin",
+				"bigpic":"images/digital art/digital painting/2015-04 bro and gab.png",
+				"smallpic": "images/digital art/digital painting/2015-04 bro and gab-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"living room in the winter",
+				"bigpic":"images/digital art/digital painting/2015-02 living room.JPG",
+				"smallpic": "images/digital art/digital painting/2015-02 living room-s.JPG",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"",
+				"bigpic":"images/digital art/digital painting/2015-02 bro.png",
+				"smallpic": "images/digital art/digital painting/2015-02 bro-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"",
+				"bigpic":"images/digital art/digital painting/2015-01 mouse desk.png",
+				"smallpic":"images/digital art/digital painting/2015-01 mouse desk-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"mother watching the superbowl",
+				"bigpic":"images/digital art/digital painting/2015-01 mom watching tv.jpeg",
+				"smallpic": "images/digital art/digital painting/2015-01 mom watching tv-s.jpeg",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"grandpa, weather news says there will be a big storm",
+				"bigpic":"images/digital art/digital painting/2015-01 gramp.png",
+				"smallpic":"images/digital art/digital painting/2015-01 gramp-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2015",
+				"description":"brother asleep",
+				"bigpic":"images/digital art/digital painting/2015-01 bro sleep.png",
+				"smallpic": "images/digital art/digital painting/2015-01 bro sleep-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2014",
+				"description":"brother sleeping in the car",
+				"bigpic":"images/digital art/digital painting/2014-12 bro sleep car.png",
+				"smallpic": "images/digital art/digital painting/2014-12 bro sleep car-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2014", 
+				"description":"brother on the couch",
+				"bigpic":"images/digital art/digital painting/2014-11 bro couch.png",
+				"smallpic":"images/digital art/digital painting/2014-11 bro couch-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2014", 
+				"description":"virginia woolf",
+				"bigpic":"images/digital art/digital painting/2014-10 woolf portrait.jpeg",
+				"smallpic": "images/digital art/digital painting/2014-10 woolf portrait-s.jpeg",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2014", 
+				"description":"",
+				"bigpic":"images/digital art/digital painting/2014-10 purple portrait.jpeg",
+				"smallpic": "images/digital art/digital painting/2014-10 purple portrait-s.jpeg",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2014", 
+				"description":"",
+				"bigpic":"images/digital art/digital painting/2014-10 einstein portrait.jpeg",
+				"smallpic": "images/digital art/digital painting/2014-10 einstein portrait-s.jpeg",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2014", 
+				"description":"virginia woolf, painted in Photoshop",
+				"bigpic":"images/digital art/digital painting/2014-07 woolf bw portrait.png",
+				"smallpic": "images/digital art/digital painting/2014-07 woolf bw portrait-s.png",
+				"group":"digital-painting"
+			},
+			{
+				"title":"2014", 
+				"description":"mother, painted in Photoshop",
+				"bigpic":"images/digital art/digital painting/2014-04 mother.png",
+				"smallpic": "images/digital art/digital painting/2014-04 mother-s.png",
+				"group":"digital-painting"
+			}
+		]
+	},
+	"design":{
+		"type":"sub",
+		"section":"digital-art",
+		"project menu": false,
+		"description":"",
+		"content":[
+			{
+				"title":"2016",
+				"description":"Sao Paulo, Summer 2016<br>Created in Adobe Photoshop",
+				"bigpic":"images/digital art/digital design/2016-08 brazil collage.png",
+				"smallpic": "images/digital art/digital design/2016-08 brazil collage-s.png",
+				"group":"design"
+			},
+			{
+				"title":"2016",
+				"description":"PennScience Journal laptop sticker design<br>Created in Adobe Illustrator",
+				"bigpic":"images/digital art/digital design/2016-07 pennscience_sticker1.png",
+				"smallpic": "images/digital art/digital design/2016-07 pennscience_sticker1-s.png",
+				"group":"design"
+			},
+			{
+				"title":"2015",
+				"description":"Project 1.1 for FNAR 264, Fall 2015<br>Created in Adobe Illustrator",
+				"bigpic":"images/digital art/digital design/2015-09 fnar264 project 1.1.png",
+				"smallpic":"images/digital art/digital design/2015-09 fnar264 project 1.1-s.png",
+				"group":"design"
+			},
+			{
+				"title":"2015",
+				"description":"Project 1.2 for FNAR 264, Fall 2015<br>Created in Adobe Illustrator",
+				"bigpic":"images/digital art/digital design/2015-09 fnar264 project 1.2.png",
+				"smallpic":"images/digital art/digital design/2015-09 fnar264 project 1.2-s.png",
+				"group":"design"
+			},
+			{
+				"title":"2015",
+				"description":"Project 1.3 for FNAR 264, Fall 2015. Inspired by Italo Calvino's <i>Invisible Cities</i>.<br>Created in Adobe Illustrator",
+				"bigpic":"images/digital art/digital design/2015-09 fnar264 project 1.3.png",
+				"smallpic":"images/digital art/digital design/2015-09 fnar264 project 1.3-s.png",
+				"group":"design"
+			}
+
+		]
+	},
+	"traditional art": {
+		"type":"main",
+		"section":"traditional-art",
+		"project menu": false
+	},
+	"painting": {
+		"type":"sub",
+		"section": "traditional-art",
+		"project menu": false,
+		"content": [
+			{
+				"title":"2016",
+				"description":"self portait, acrylic on canvas, 8\"x10\", June 2016",
+				"bigpic":"images/traditional art/paintings/2016-06 self portrait.JPG",
+				"smallpic": "images/traditional art/paintings/2016-06 self portrait-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2015",
+				"description":"emily dickinson, oil on canvas, 5\"x7\", May 2015",
+				"bigpic":"images/traditional art/paintings/2015.05.22 dickinson.JPG",
+				"smallpic": "images/traditional art/paintings/2015.05.22 dickinson-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2015",
+				"description":"virginia woolf, oil on canvas, 8\"x10\", May 2015",
+				"bigpic":"images/traditional art/paintings/2015.05 woolf.JPG",
+				"smallpic": "images/traditional art/paintings/2015.05 woolf-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2015",
+				"description":"ezra pound, oil on canvas, 8\"x10\", May 2015",
+				"bigpic":"images/traditional art/paintings/2015.05 pound.JPG",
+				"smallpic": "images/traditional art/paintings/2015.05 pound-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2015",
+				"description":"oil on canvas, 8\"x10\", May 2015",
+				"bigpic":"images/traditional art/paintings/2015.05 guoma.JPG",
+				"smallpic": "images/traditional art/paintings/2015.05 guoma-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2015",
+				"description":"self portrait, oil on canvas, 8\"x10\", March 2015",
+				"bigpic":"images/traditional art/paintings/2015.03. self.JPG",
+				"smallpic": "images/traditional art/paintings/2015.03. self-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2015",
+				"description":"mother, oil on canvas, 8\"x10\", March 2015",
+				"bigpic":"images/traditional art/paintings/2015.03 ma.JPG",
+				"smallpic": "images/traditional art/paintings/2015.03 ma-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2015",
+				"description":"after school, oil on canvas, June 2015",
+				"bigpic":"images/traditional art/paintings/2015-06 self portrait after school.JPG",
+				"smallpic": "images/traditional art/paintings/2015-06 self portrait after school-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"shifty, oil on canvas, December 2014",
+				"bigpic":"images/traditional art/paintings/2014.12.shifty.JPG",
+				"smallpic": "images/traditional art/paintings/2014.12.shifty-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"figure 3, acrylic on canvas, December 2014",
+				"bigpic":"images/traditional art/paintings/2014.12 figure3.JPG",
+				"smallpic": "images/traditional art/paintings/2014.12 figure3-s.JPG",
+				"group":"painting"
+			},
+						{
+				"title":"2014",
+				"description":"figure 2, acrylic on canvas, November 2014",
+				"bigpic":"images/traditional art/paintings/2014.11 figure2.JPG",
+				"smallpic": "images/traditional art/paintings/2014.11 figure2-s.JPG",				
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"nov 8 self portrait, acrylic on canvas, November 2014",
+				"bigpic":"images/traditional art/paintings/2014.11 nov 8 self portrait.JPG",
+				"smallpic": "images/traditional art/paintings/2014.11 nov 8 self portrait-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"Apathy No.10 (Formation), acrylic on canvas, November 2014 [Senior Project]",
+				"bigpic":"images/traditional art/paintings/2014.10 sp 10.JPG",
+				"smallpic": "images/traditional art/paintings/2014.10 sp 10-s.JPG",				
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"Apathy No.9 (The Escape), acrylic on canvas, November 2014 [Senior Project]",
+				"bigpic":"images/traditional art/paintings/2014.10 sp 9.JPG",
+				"smallpic": "images/traditional art/paintings/2014.10 sp 9-s.JPG",				
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"Apathy No.5 (The Dampening Effects of Repetition), acrylic on canvas, October 2014 [Senior Project]",
+				"bigpic":"images/traditional art/paintings/2014.10 sp 5.JPG",
+				"smallpic": "images/traditional art/paintings/2014.10 sp 5-s.JPG",				
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"Apathy No.4, acrylic on canvas, September 2014 [Senior Project]",
+				"bigpic":"images/traditional art/paintings/2014.10 sp 4.JPG",
+				"smallpic": "images/traditional art/paintings/2014.10 sp 4-s.JPG",				
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"distraction 2, acrylic on board, October 2014",
+				"bigpic":"images/traditional art/paintings/2014.10 distraction2.JPG",
+				"smallpic":"images/traditional art/paintings/2014.10 distraction2-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"self, oil on canvas, August 2014",
+				"bigpic":"images/traditional art/paintings/2014.08 oil.JPG",
+				"smallpic": "images/traditional art/paintings/2014.08 oil-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"lights, acrylic on canvas, July 2014",
+				"bigpic":"images/traditional art/paintings/2014.07 lights.JPG",
+				"smallpic": "images/traditional art/paintings/2014.07 lights-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"dreams/memories, acrylic on canvas, July 2014",
+				"bigpic":"images/traditional art/paintings/2014.07 dream memory.JPG",
+				"smallpic": "images/traditional art/paintings/2014.07 dream memory-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2014",
+				"description":"apocalyptic self, acrylic on canvas, July 2014",
+				"bigpic":"images/traditional art/paintings/2014.07 apocalypse.JPG",
+				"smallpic": "images/traditional art/paintings/2014.07 apocalypse-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2013",
+				"description":"cyberpunk self, acrylic on canvas, July 2013",
+				"bigpic":"images/traditional art/paintings/2013_cyber punk self.JPG",
+				"smallpic": "images/traditional art/paintings/2013_cyber punk self-s.JPG",
+				"group":"painting"
+			},
+			{
+				"title":"2013",
+				"description":"connected, acrylic on canvas, July 2013",
+				"bigpic":"images/traditional art/paintings/2013_connected.JPG",
+				"smallpic": "images/traditional art/paintings/2013_connected-s.JPG",
+				"group":"painting"
+			}
+		]
+	},
+	"figure": {
+		"type":"sub",
+		"section":"traditional-art",
+		"project menu": false,
+		"content":[
+			{
+				"title":"2016",
+				"description":"chalk pastels and charcoal on newsprint, april 2016",
+				"bigpic":"images/traditional art/figure/2016 9.JPG",
+				"smallpic": "images/traditional art/figure/2016 9-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2016",
+				"description":"charcoal on newsprint, april 2016",
+				"bigpic":"images/traditional art/figure/2016 8.JPG",
+				"smallpic": "images/traditional art/figure/2016 8-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2016",
+				"description":"charcoal on newsprint, april 2016",
+				"bigpic":"images/traditional art/figure/2016 7.JPG",
+				"smallpic": "images/traditional art/figure/2016 7-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2016",
+				"description":"charcoal on newsprint, march 2016",
+				"bigpic":"images/traditional art/figure/2016 6.JPG",
+				"smallpic": "images/traditional art/figure/2016 6-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2016",
+				"description":"charcoal on newsprint, march 2016",
+				"bigpic":"images/traditional art/figure/2016 5.JPG",
+				"smallpic": "images/traditional art/figure/2016 5-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2016",
+				"description":"charcoal on newsprint, march 2016",
+				"bigpic":"images/traditional art/figure/2016 4.JPG",
+				"smallpic": "images/traditional art/figure/2016 4-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2016",
+				"description":"charcoal on newsprint, march 2016",
+				"bigpic":"images/traditional art/figure/2016 3.JPG",
+				"smallpic": "images/traditional art/figure/2016 3-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2016",
+				"description":"charcoal on newsprint, february 2016",
+				"bigpic":"images/traditional art/figure/2016 2.JPG",
+				"smallpic": "images/traditional art/figure/2016 2-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2014",
+				"description":"charcoal on newsprint, 2014",
+				"bigpic":"images/traditional art/figure/2014 4.JPG",
+				"smallpic": "images/traditional art/figure/2014 4-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2014",
+				"description":"charcoal on newsprint, 2014",
+				"bigpic":"images/traditional art/figure/2014 3.JPG",
+				"smallpic": "images/traditional art/figure/2014 3-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2014",
+				"description":"charcoal on newsprint, 2014",
+				"bigpic":"images/traditional art/figure/2014 2.JPG",
+				"smallpic": "images/traditional art/figure/2014 2-s.JPG",
+				"group":"figure"
+			},
+			{
+				"title":"2014",
+				"description":"charcoal on newsprint, 2014",
+				"bigpic":"images/traditional art/figure/2014 1.JPG",
+				"smallpic": "images/traditional art/figure/2014 1-s.JPG",
+				"group":"figure"
+			}
+		]
+	},
+	"sketches": {
+		"type":"sub",
+		"section":"traditional-art",
+		"project menu": false,
+		"description":"I love sketching! I sketch all the time and I really, really value the importance of it. Here are just a few pages from some of my past sketchbooks - check back soon for updates with more recent stuff!",
+		"content":[
+			{
+				"title":"2016",
+				"description":"miami, january 2016",
+				"bigpic":"images/traditional art/sketches/2016-01 miami.JPG",
+				"smallpic": "images/traditional art/sketches/2016-01 miami-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"sleeping boy, october 2015",
+				"bigpic":"images/traditional art/sketches/2015-10 sleeping boi.JPG",
+				"smallpic": "images/traditional art/sketches/2015-10 sleeping boi-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"lounge room, october 2015",
+				"bigpic":"images/traditional art/sketches/2015-10 lounge room.JPG",
+				"smallpic": "images/traditional art/sketches/2015-10 lounge room-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"hike, october 2015",
+				"bigpic":"images/traditional art/sketches/2015-10 hike.JPG",
+				"smallpic": "images/traditional art/sketches/2015-10 hike-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"hike, october 2015",
+				"bigpic":"images/traditional art/sketches/2015-10 hike 2.JPG",
+				"smallpic": "images/traditional art/sketches/2015-10 hike 2-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"construction outside my room, september 2015",
+				"bigpic":"images/traditional art/sketches/2015-10 construction.JPG",
+				"smallpic": "images/traditional art/sketches/2015-10 construction-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"paris, july 2015",
+				"bigpic":"images/traditional art/sketches/2015-07 paris.JPG",
+				"smallpic": "images/traditional art/sketches/2015-07 paris-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"paris, july 2015",
+				"bigpic":"images/traditional art/sketches/2015-07 paris table.JPG",
+				"smallpic": "images/traditional art/sketches/2015-07 paris table-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"mus&eacute;e d'orsay, july 2015",
+				"bigpic":"images/traditional art/sketches/2015-07 orsay.JPG",
+				"smallpic": "images/traditional art/sketches/2015-07 orsay-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"mus&eacute;e d'orsay, july 2015",
+				"bigpic":"images/traditional art/sketches/2015-07 orsay 2.JPG",
+				"smallpic": "images/traditional art/sketches/2015-07 orsay 2-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"notre dame, july 2015",
+				"bigpic":"images/traditional art/sketches/2015-07 notre dame.JPG",
+				"smallpic": "images/traditional art/sketches/2015-07 notre dame-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"mus&eacute;e du louvre, july 2015",
+				"bigpic":"images/traditional art/sketches/2015-07 louvre.JPG",
+				"smallpic": "images/traditional art/sketches/2015-07 louvre-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"paris, july 2015",
+				"bigpic":"images/traditional art/sketches/2015-07 eiffel.JPG",
+				"smallpic": "images/traditional art/sketches/2015-07 eiffel-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"london, july 2015",
+				"bigpic":"images/traditional art/sketches/2015-07 london.JPG",
+				"smallpic": "images/traditional art/sketches/2015-07 london-s.JPG",
+				"group":"sketches"
+			},
+			{
+				"title":"2015",
+				"description":"epcot, may 2015",
+				"bigpic":"images/traditional art/sketches/2015-05 epcot.JPG",
+				"smallpic": "images/traditional art/sketches/2015-05 epcot-s.JPG",
+				"group":"sketches"
+			}
+		]
+	},
+	"misc": {
+		"type":"single",
+		"section":"misc",
+		"project menu": true,
+		"content":
+		[
+			{
+				"project-title":"Bottle of Suze Etsy shop",
+				"thumbnail": "images/misc/etsy/book club shirt-s.JPG",
+				"project-blurb":"Etsy shop that sells original design tshirts and prints",
+				"project-description":"The Bottle of Suze Etsy shop is a project I started in Spring of 2015, an offshoot of my Project Inspiration portraiture project. The idea for the shop came when I was browsing the internet for a cool tshirt to buy, but couldn't find any that aligned with my interests. I decided to just design my own and put them on Etsy for anyone else who also wanted them. I carried on with the project independent of PI, and I still continue to make and sell shirts and prints.<br><br>Visit the shop <a href='https://etsy.com/shop/bottleofsuze' target='_blank'>here!</a>",
+				"group":"etsyshop",
+				"project content":
+				[
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/etsy/logo pic.JPG",
+						"smallpic": "images/misc/etsy/logo pic-s.JPG",
+						"group":"etsyshop"
+					},
+
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/etsy/book club shirt.JPG",
+						"smallpic": "images/misc/etsy/book club shirt-s.JPG",
+						"group":"etsyshop"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/etsy/astro shirt.JPG",
+						"smallpic": "images/misc/etsy/astro shirt-s.JPG",
+						"group":"etsyshop"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/etsy/penn shirt.JPG",
+						"smallpic": "images/misc/etsy/penn shirt-s.JPG",
+						"group":"etsyshop"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/etsy/pound shirt.JPG",
+						"smallpic": "images/misc/etsy/pound shirt-s.JPG",
+						"group":"etsyshop"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/etsy/ART CLUB.JPG",
+						"smallpic": "images/misc/etsy/ART CLUB-s.JPG",
+						"group":"etsyshop"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/etsy/CAMERA_EVOLVE.JPG",
+						"smallpic": "images/misc/etsy/CAMERA_EVOLVE-s.JPG",
+						"group":"etsyshop"
+					},					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/etsy/main page.JPG",
+						"smallpic": "images/misc/etsy/main page-s.JPG",
+						"group":"etsyshop"
+					}
+				]
+			},
+			{
+				"project-title":"Project Inspiration:<br>Portraiture",
+				"thumbnail": "images/misc/project inspiration/drawin woolf-s.JPG",
+				"project-blurb":"Images, Words, Music: A Portrait of the World",
+				"project-description":"Project Inspiration is a self-directed project stemming from a source of inspiration (in this case, the novel <i>Orlando</i> by Virginia Woolf), and carried out to create or learn something meaningful. After reading <i>Orlando</i> I was struck by how Woolf had expertly portrayed the heroic, androgynous, satirical protagonist, Orlando. I thought a lot about how the essence of a good portrait is universal to any media. I studied the portraiture of people in art by painting and illustrating, and I explored the portraiture of environments with a combination of video and music. This project exposed me to many interests I probably would not have delved into otherwise! (i.e. portrait painting, video making, Virginia Woolf, and more of an offshoot, tshirt design)",
+				"group":"inspiration",
+				"project content":
+				[
+					{
+						"title":"<img class='play'>",
+						"description":"I made this video as a collage of different clips, thoughts, and music as a way to express what I learned about the beauty of portraiture from reading <i>Orlando</i> and from trying to look at the world with portraiture in mind.",
+						"bigpic":"https://youtu.be/hzD3V64MkIg",
+						"smallpic": "images/misc/project inspiration/on bike-s.JPG",
+						"group":"inspirationVid"
+					},
+					{
+						"title":"",
+						"description":"Portrait of Virginia Woolf, author of <i>Orlando</i>, and the inspiration for this portraiture project",
+						"bigpic":"images/traditional art/paintings/2015.05 woolf.JPG",
+						"smallpic": "images/traditional art/paintings/2015.05 woolf-s.JPG",
+						"group":"inspiration"
+					},
+					{
+						"title":"",
+						"description":"Portrait of Ezra Pound, a poet I admire for his Imagist poems",
+						"bigpic":"images/traditional art/paintings/2015.05 pound.JPG",
+						"smallpic": "images/traditional art/paintings/2015.05 pound-s.JPG",
+						"group":"inspiration"
+					},
+					{
+						"title":"",
+						"description":"A self portrait I completed under this project.",
+						"bigpic":"images/traditional art/paintings/2015.03. self.JPG",
+						"smallpic": "images/traditional art/paintings/2015.03. self-s.JPG",
+						"group":"inspiration"
+					},
+					{
+						"title":"",
+						"description":"A portrait of my mother.",
+						"bigpic":"images/traditional art/paintings/2015.03 ma.JPG",
+						"smallpic": "images/traditional art/paintings/2015.03 ma-s.JPG",
+						"group":"inspiration"
+					},
+					{
+						"title":"",
+						"description":"Portraits of artists, later used as a tshirt/print design in my Etsy shop. An important aspect of my project was the blending of different media (writing, visual art, video, music) towards one expressional goal. So, artists were as important as writers.",
+						"bigpic":"images/misc/etsy/ART CLUB.JPG",
+						"smallpic": "images/misc/etsy/ART CLUB-s.JPG",
+						"group":"inspiration"
+					},
+					{
+						"title":"",
+						"description":"Portraits of writers - design used for tshirt on the Bottle of Suze Etsy shop",
+						"bigpic":"images/misc/etsy/book club shirt.JPG",
+						"smallpic": "images/misc/etsy/book club shirt-s.JPG",
+						"group":"inspiration"
+					}
+
+				]
+			}, 
+			{
+				"project-title":"(WO)MAN UP",
+				"thumbnail": "images/misc/woman up/IMG_9721-s.JPG",
+				"project-blurb":"Public installation to bring attention to gender inequality in the workforce",
+				"project-description":"Initially envisioned to address gender inequality specifically in the tech industry, my project partner and I realized that this problem extends to women in all career paths. We installed two foam door frames for a day on Locust Walk, a central location on campus. On top of the doors is written \"HAVING TROUBLE? TRY BEING A WOMAN\". The door for women is occluded by tape, making it harder to pass through and representing the barriers women must overcome before being on the same level as men. Penn's frequently toxic pre-professional atmosphere made this installation even more impactful. Many students stopped to take pictures and read the sign, and some walked through. <br><br>December 2015",
+				"group":"womanup",
+				"project content":
+				[
+					{
+						
+						"title":"<img class='play'>",
+						"description":"",
+						"bigpic":"https://vimeo.com/178523349",
+						"smallpic": "images/misc/woman up/vid thumb-s.JPG",
+						"group":"womanupV"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/woman up/IMG_9721.JPG",
+						"smallpic": "images/misc/woman up/IMG_9721-s.JPG",
+						"group":"womanup"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/woman up/IMG_9748.JPG",
+						"smallpic": "images/misc/woman up/IMG_9748-s.JPG",
+						"group":"womanup"
+					},
+					{
+						"title":"",
+						"description":"Me and my project partner, Camille",
+						"bigpic":"images/misc/woman up/IMG_9753.JPG",
+						"smallpic": "images/misc/woman up/IMG_9753-s.JPG",
+						"group":"womanup"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/woman up/spray painting.JPG",
+						"smallpic": "images/misc/woman up/spray painting-s.JPG",
+						"group":"womanup"
+					},
+						{
+						"title":"",
+						"description":"",
+						"bigpic":"images/misc/woman up/tracing.JPG",
+						"smallpic": "images/misc/woman up/tracing-s.JPG",
+						"group":"womanup"
+					}
+					
+				]
+			},
+			{
+				"project-title":"Photography",
+				"thumbnail": "images/misc/photography/2014 leaves-s.JPG",
+				"project-blurb":"",
+				"project-description":"",
+				"group":"photography",
+				"project content":
+				[
+					{
+						"title":"",
+						"description":"winter 2014, digital",
+						"bigpic":"images/misc/photography/2014 purple snow.JPG",
+						"smallpic": "images/misc/photography/2014 purple snow-s.JPG",
+						"group":"photography"
+					},
+					{
+						"title":"",
+						"description":"july 2014, film",
+						"bigpic":"images/misc/photography/2014 leaves.JPG",
+						"smallpic": "images/misc/photography/2014 leaves-s.JPG",
+						"group":"photography"
+					},
+					{
+						"title":"",
+						"description":"Vassar, july 2014, film",
+						"bigpic":"images/misc/photography/2014 libr.JPG",
+						"smallpic": "images/misc/photography/2014 libr-s.JPG",
+						"group":"photography"
+					},
+					{
+						"title":"",
+						"description":"New Hackensack Rd, july 2014, film",
+						"bigpic":"images/misc/photography/2014 new hackensack.JPG",
+						"smallpic": "images/misc/photography/2014 new hackensack-s.JPG",
+						"group":"photography"
+					},
+					{
+						"title":"",
+						"description":"july 2014, film",
+						"bigpic":"images/misc/photography/2014 statue.JPG",
+						"smallpic": "images/misc/photography/2014 statue-s.JPG",
+						"group":"photography"
+					}
+				]
+			}
+		]
+	}
+}
+
