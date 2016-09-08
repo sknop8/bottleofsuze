@@ -2,15 +2,16 @@
 	width:100%;
 }
 #home{
-	top:15px;
-	left:15px;
-	right:15px;
+	top:30px;
+	left:20px;
+	right:20px;
+	line-height: 10pt
 }
 #home .big{
 	font-size:15pt;
 }
 #home .med{
-	font-size:10pt;
+	font-size:9pt;
 }
 #home .small{
 	font-size:6pt;
@@ -22,7 +23,7 @@
 
 .sub-menu-option {
 	font-size: 6pt;	
-	
+
 }
 .sub-menu-option:hover{
 	background-color: var(--dropdownBackgroundLight);
