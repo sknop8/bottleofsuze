@@ -3,7 +3,7 @@
 		"type":"single",
 		"section":"bottle-of-suze",
 		"project menu": true,
-		"description":"<div id='home'>Welcome to Bottle of Suze! My name is Suzanne Knop, I'm a sophomore studying Digital Media Design at the University of Pennsylvania, and this is where I put all my stuff!</div><br><img src='images/IMG_0640[2].jpg'>"
+		"description":"<div id='home'><span class='big'>welcome</span><br><span class='med'>My name is Suzanne, I'm an artist and a programmer.</span><br><span class='small'>This is a space I created to showcase the things I've been working on. Have a look around!</span></div><br><img id='homeImg' src='images/laying red.png'>"
 
     }, 
     "about": {

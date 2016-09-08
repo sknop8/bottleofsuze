@@ -347,7 +347,7 @@ localStorage.setItem('myhash','home');
       var targetId = "menu-option-"+localStorage.getItem('myhash');
       if ($menuOption.attr('id') === targetId){
         $menuOption.click();
-        console.log('!!!!!!');
+        // console.log('!!!!!!');
         $menuOption.addClass("clicked");
         $menuOption.css("border-bottom", "3px solid var(--accent)");
       }
@@ -433,7 +433,7 @@ localStorage.setItem('myhash','home');
 
   //correct page when hash changes
   var correctHashChange = function(tgt) {
-    console.log("hash change");
+    // console.log("hash change");
        var page = $("#page").html(),
        subPage = replaceSpacesWithDashes($('#sub-page').html());
     
@@ -444,10 +444,10 @@ localStorage.setItem('myhash','home');
           page +=split[i];
         }
         page = replaceSpacesWithDashes(page);
-        console.log("tgt" + tgt);
+        // console.log("tgt" + tgt);
         if (typeof(tgt) === 'string') {
           targetPage = tgt.replace(/^#/, '');
-          console.log('hi' + tgt);
+          // console.log('hi' + tgt);
         } else {
           var targetPage = location.hash.replace( /^#/, '' );
         }
@@ -466,7 +466,7 @@ localStorage.setItem('myhash','home');
           $("#menu-option-home").click();
         }
 
-         console.log("targetPage: "  + targetPage);
+         // console.log("targetPage: "  + targetPage);
          localStorage.setItem('myhash', targetPage);
    };
 
