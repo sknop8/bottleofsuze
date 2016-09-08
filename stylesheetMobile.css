@@ -17,11 +17,11 @@
 	font-size:6pt;
 }
 /*------------menu stuff--------------*/
-#title{
+#title, #page-titles{
 	font-size:20pt;
 }
 #header{
-	line-height:20px;
+	line-height:15pt;
 }
 .menu-option {
 	font-size:15pt;
