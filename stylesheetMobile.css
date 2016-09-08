@@ -1,5 +1,14 @@
 #homeImg{
-	width:50%;
+	width:100%;
+}
+#home .big{
+	font-size:15pt;
+}
+#home .med{
+	font-size:10pt;
+}
+#home .small{
+	font-size:6pt;
 }
 /*------------menu stuff--------------*/
 #header{
