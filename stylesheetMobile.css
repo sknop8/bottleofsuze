@@ -25,6 +25,8 @@
 }
 .menu-option {
 	font-size:10pt;
+	padding-left:2px;
+	padding-right:2px;
 }
 
 .sub-menu-option {
