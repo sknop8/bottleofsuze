@@ -2,9 +2,9 @@
 	width:100%;
 }
 #home{
-	top:30px;
-	left:20px;
-	right:20px;
+	top:35px;
+	left:25px;
+	right:25px;
 	line-height: 10pt
 }
 #home .big{
@@ -17,8 +17,14 @@
 	font-size:6pt;
 }
 /*------------menu stuff--------------*/
+#title{
+	font-size:20pt;
+}
 #header{
 	line-height:20px;
+}
+.menu-option {
+	font-size:15pt;
 }
 
 .sub-menu-option {
