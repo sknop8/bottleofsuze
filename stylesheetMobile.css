@@ -21,12 +21,14 @@
 	font-size:13pt;
 }
 #header{
-	line-height:18pt;
+	
 }
 .menu-option {
+	line-height:18pt;
 	font-size:10pt;
 	padding-left:2px;
 	padding-right:2px;
+	border-bottom: 1px solid var(--subAccent);
 }
 
 .sub-menu-option {
