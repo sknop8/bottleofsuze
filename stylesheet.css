@@ -15,7 +15,9 @@ body{
 	background-color: var(--pageBackground);
 	color: var(--mainTextColor);
 }
-
+#home{
+	font-size: 12pt;
+}
 /*----------------title stuff--------------*/
 #page-titles{
 	font-size:24pt;

@@ -3,7 +3,7 @@
 		"type":"single",
 		"section":"bottle-of-suze",
 		"project menu": true,
-		"description":"Welcome to Bottle of Suze! My name is <span class='emph'>Suzanne Knop</span>, I'm a sophomore studying Digital Media Design at the University of Pennsylvania, and this is where I put all my stuff!"
+		"description":"<div id='home'>Welcome to Bottle of Suze! My name is Suzanne Knop, I'm a sophomore studying Digital Media Design at the University of Pennsylvania, and this is where I put all my stuff!</div><br><img src='images/IMG_0640[2].jpg'>"
 
     }, 
     "about": {
