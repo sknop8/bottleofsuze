@@ -8,7 +8,7 @@
 	line-height: 10pt
 }
 #home .big{
-	font-size:15pt;
+	font-size:13pt;
 }
 #home .med{
 	font-size:9pt;
@@ -18,10 +18,10 @@
 }
 /*------------menu stuff--------------*/
 #title, #page-titles{
-	font-size:10pt;
+	font-size:13pt;
 }
 #header{
-	line-height:15pt;
+	line-height:18pt;
 }
 .menu-option {
 	font-size:10pt;
