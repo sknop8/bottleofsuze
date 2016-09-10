@@ -94,12 +94,19 @@
 			},
 			{
 				"project-title":"Bottle of Suze site",
-				"thumbnail":  "images/coding/bottle of suze/content page-s.png",
+				"thumbnail":  "images/coding/bottle of suze/laying-red-s.png",
 				"project-blurb":"personal website/portfolio",
 				"project-description":"This site is a complete revamp of an old personal website I had written in 2013. After learning way more Javascript during my freshmen year at Penn, I wrote this in July/August of 2016. Both content (via JSON parsing) and templating (via Backbone) are much more modifiable this time! <br><br><strong>What I used:</strong> Javascript/HTML/CSS, jQuery, Backbone, Handlebars, fancyBox, Bootstrap<br><br>Source code <a href='https://sknop8@bitbucket.org/sknop8/bottleofsuze.git' target='_blank'>here</a><br><br>Created summer 2016",
 				"group":"this-site",
 				"project content":
 					[
+						{
+							"title":"",
+							"description":"",
+							"bigpic":"images/coding/bottle of suze/laying-red.png",
+							"smallpic": "images/coding/bottle of suze/laying-red-s.png",
+							"group":"bottleofsuzesite"
+						},
 						{
 							"title":"",
 							"description":"content page example",
