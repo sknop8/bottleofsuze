@@ -144,7 +144,14 @@
 
 
  
-localStorage.setItem('myhash','home');
+
+if (window.location.hash === "") {
+  localStorage.setItem('myhash','home');
+} else {
+  localStorage.setItem('myhash', window.location.hash.replace( /^#/, '' ));
+}
+
+console.log(window.location.hash);
 
   // $(window).bind('beforeunload', function() {
   //   localStorage.setItem('myhash', window.location.hash);
@@ -345,6 +352,7 @@ localStorage.setItem('myhash','home');
 
       //set initial page on reload (what is stored in local storage - initially home)
       var targetId = "menu-option-"+localStorage.getItem('myhash');
+      console.log("target " + targetId)
       if ($menuOption.attr('id') === targetId){
         $menuOption.click();
         // console.log('!!!!!!');
