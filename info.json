@@ -82,7 +82,7 @@
 				"project-title":"VR Subliminal Eye Movement Research",
 				"thumbnail": "images/coding/vr eyetracking/oculus-s.jpg",
 				"project-blurb":"investigation of subliminal eyetracking for VR applications",
-				"project-description":"During the summer of 2016, I worked on this subliminal eye movement research project with another student under Dr. Stephen Lane at the University of Pennsylvania. The project objective was to draw conclusions about sublimal eye movements in virtual reality environments that could ultimately be used in industry to enhance gameplay control. We used an Oculus Rift specially fitted with an SMI EyeTracker to conduct tests. Test \"games\" were created in Unity, and Processing was used for data visualization. <br><br>May-August 2016",
+				"project-description":"During the summer of 2016, I worked on a VR research project with another student under Dr. Stephen Lane at the University of Pennsylvania. The project objective was to draw conclusions about sublimal eye movements in virtual reality environments that could ultimately be used in industry to enhance gameplay control. We used an Oculus Rift specially fitted with an SMI EyeTracker to conduct tests. Test \"games\" were created in Unity, and Processing was used for data visualization. <br><br>May-August 2016",
 				"group":"eyetracking",
 				"project content":[
 					{
