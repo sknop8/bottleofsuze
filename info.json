@@ -10,7 +10,7 @@
     	"type":"single",
     	"section":"about", 
     	"project menu": false,         
-    	"description":"<div id='aboutDiv'><b>about me</b><br>Hi! My name is Suzanne, I'm a sophomore pursuing a BSE in Digital Media Design at the University of Pennsylvania. I like programming, art, 3D modeling, listening to Beach House, and making music videos. In my work, I hope to combine computer science, art, and music in a way that sheds light on my own mixed identity.<br><br><b>links to stuff</b><li><a href='https://sknop8.github.io/Music-xx' target='_blank'>Music xx</a> Music visualization app I made in Spring 2016</li><li><a href='https://www.etsy.com/shop/bottleofsuze' target='_blank'>Bottle of Suze Etsy shop</a> My Etsy shop - originally designed shirts & prints</li><li><a href='https://youtu.be/zJeW3rsiyq8' target='_blank'>(Wo)man Up</a> Public installation piece another student and I made concerning gender inequality</li><li><a href='https://youtu.be/hzD3V64MkIg' target='_blank'>Project Inspiration: Portraiture</a> A project I did on portraiture in writing, visual art, and music</li><li><a href='https://apah.wikispaces.com/Don%27t+Go+with+the+Crowd' target='_blank'>Don't Go with the Crowd</a> Art History paper/blog post I wrote about crowd portrayal in art</li><br><b>contact me here</b><br>sknop@seas.upenn.edu<br><br><b>about this site</b><br>This website was completely built and designed by me. It is named after <a href='http://kemperartmuseum.wustl.edu/collection/explore/artwork/1105' target='_blank'><i>La bouteille de Suze</i>, 1912</a>, a Picasso still life. All the work shown is my own, or part of a team project with which I was a major part of. Enjoy!</div>",
+    	"description":"<div id='aboutDiv'><b>about me</b><br>Hi! My name is Suzanne, I'm a sophomore pursuing a BSE in Digital Media Design at the University of Pennsylvania. I like programming, art, 3D modeling, listening to Beach House, and making music videos. In my work, I hope to combine computer science, art, and music in a way that sheds light on my own mixed identity.<br><br><b>links to stuff</b><li><a href='https://sknop8.github.io/ohq' target='_blank'>Office Hours Queue (OHQ)</a> Web app to improve the office hours process (PennApps Fall 2016)</li><li><a href='https://sknop8.github.io/Music-xx' target='_blank'>Music xx</a> Music visualization app I made in Spring 2016</li><li><a href='https://www.etsy.com/shop/bottleofsuze' target='_blank'>Bottle of Suze Etsy shop</a> My Etsy shop - originally designed shirts & prints</li><li><a href='https://youtu.be/zJeW3rsiyq8' target='_blank'>(Wo)man Up</a> Public installation piece another student and I made concerning gender inequality</li><li><a href='https://youtu.be/hzD3V64MkIg' target='_blank'>Project Inspiration: Portraiture</a> A project I did on portraiture in writing, visual art, and music</li><li><a href='https://apah.wikispaces.com/Don%27t+Go+with+the+Crowd' target='_blank'>Don't Go with the Crowd</a> Art History paper/blog post I wrote about crowd portrayal in art</li><br><b>contact me here</b><br>sknop@seas.upenn.edu<br><br><b>about this site</b><br>This website was completely built and designed by me. It is named after <a href='http://kemperartmuseum.wustl.edu/collection/explore/artwork/1105' target='_blank'><i>La bouteille de Suze</i>, 1912</a>, a Picasso still life. All the work shown is my own, or part of a team project with which I was a major part of. Enjoy!</div>",
     	"content":[             
     		{
     			"title":"",
@@ -41,6 +41,43 @@
     	"project menu": true,
     	"description":"My major programming projects",         
     	"content":[
+    	{
+				"project-title":"Office Hours Queue (OHQ)",
+				"thumbnail": "images/coding/ohq/home page2-s.jpg",
+				"project-blurb":"making office hours better",
+				"project-description":"PennApps XIV (Fall 2016) submission<br><br>OHQ, or Office Hours Queue, is a web app with the goal to streamline the office hours process by adding transparency through informative and intuitive interface. I built OHQ in a team of 3, working on both the frontend and the backend. OHQ was built using JavaScript, Firebase, Require.js, HTML, CSS, and Bootstrap.<br><br>Try it out <a  target='_blank'href='https://sknop8.github.io/ohq'>here</a>!<br>View the source code <a href='https://github.com/sknop8/ohq' target='_blank'>here</a>.<br><br>Sept 9-11, 2016",
+				"group":"ohq",
+				"project content":[
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/coding/ohq/home page.jpg",
+						"smallpic": "images/coding/ohq/home page2-s.jpg",
+						"group":"ohq"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/coding/ohq/student form.jpg",
+						"smallpic": "images/coding/ohq/student form-s.jpg",
+						"group":"ohq"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/coding/ohq/submitted page.jpg",
+						"smallpic": "images/coding/ohq/submitted page-s.jpg",
+						"group":"ohq"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"images/coding/ohq/ta page.jpg",
+						"smallpic": "images/coding/ohq/ta page-s.jpg",
+						"group":"ohq"
+					}
+				]
+			},
     	{
 				"project-title":"VR Subliminal Eye Movement Research",
 				"thumbnail": "images/coding/vr eyetracking/oculus-s.jpg",
