@@ -43,7 +43,7 @@
     	"content":[
     	{
 				"project-title":"Office Hours Queue (OHQ)",
-				"thumbnail": "images/coding/ohq/home page2-s.jpg",
+				"thumbnail": "images/coding/ohq/home page2-s.JPG",
 				"project-blurb":"making office hours better",
 				"project-description":"PennApps XIV (Fall 2016) submission<br><br>OHQ, or Office Hours Queue, is a web app with the goal to streamline the office hours process by adding transparency through informative and intuitive interface. I built OHQ in a team of 3, working on both the frontend and the backend. OHQ was built using JavaScript, Firebase, Require.js, HTML, CSS, and Bootstrap.<br><br>Try it out <a  target='_blank'href='https://sknop8.github.io/ohq'>here</a>!<br>View the source code <a href='https://github.com/sknop8/ohq' target='_blank'>here</a>.<br><br>Sept 9-11, 2016",
 				"group":"ohq",
@@ -51,28 +51,28 @@
 					{
 						"title":"",
 						"description":"",
-						"bigpic":"images/coding/ohq/home page.jpg",
-						"smallpic": "images/coding/ohq/home page2-s.jpg",
+						"bigpic":"images/coding/ohq/home page.JPG",
+						"smallpic": "images/coding/ohq/home page2-s.JPG",
 						"group":"ohq"
 					},
 					{
 						"title":"",
 						"description":"",
-						"bigpic":"images/coding/ohq/student form.jpg",
+						"bigpic":"images/coding/ohq/student form.JPG",
 						"smallpic": "images/coding/ohq/student form-s.jpg",
 						"group":"ohq"
 					},
 					{
 						"title":"",
 						"description":"",
-						"bigpic":"images/coding/ohq/submitted page.jpg",
+						"bigpic":"images/coding/ohq/submitted page.JPG",
 						"smallpic": "images/coding/ohq/submitted page-s.jpg",
 						"group":"ohq"
 					},
 					{
 						"title":"",
 						"description":"",
-						"bigpic":"images/coding/ohq/ta page.jpg",
+						"bigpic":"images/coding/ohq/ta page.JPG",
 						"smallpic": "images/coding/ohq/ta page-s.jpg",
 						"group":"ohq"
 					}
