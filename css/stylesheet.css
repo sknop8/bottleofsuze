@@ -218,7 +218,7 @@ body{
 }
 
 .play{
-	content:url('./images/play_button.png');
+	content:url('../images/play_button.png');
 	width:calc(var(--thumbnailWidth) * 0.4);
 	margin-top:20%;
 	margin-left:30%;
@@ -293,7 +293,7 @@ body{
 	line-height: 11px;
 }
 .fancybox-close {
-	background-image: url("./images/close_button2.png");
+	background-image: url("../images/close_button2.png");
 	background-size: 20px;
 	background-repeat: no-repeat;
 	opacity:0.3;
@@ -316,12 +316,12 @@ body{
 	background-position:74px 2px;
 }
 .fancybox-prev span {
-	background-image: url("./images/prev_button2.png");
+	background-image: url("../images/prev_button2.png");
 	visibility: visible;
 	left:0;
 }
 .fancybox-next span{
-	background-image: url("./images/next_button2.png");
+	background-image: url("../images/next_button2.png");
 	visibility: visible;
 	right:0;
 }
