@@ -50,14 +50,14 @@
 				"project content":[
 					{
 						"title":"",
-						"description":"",
+						"description":"Home page",
 						"bigpic":"images/coding/ohq/home page.JPG",
 						"smallpic": "images/coding/ohq/home page2-s.JPG",
 						"group":"ohq"
 					},
 					{
 						"title":"",
-						"description":"",
+						"description":"Student form",
 						"bigpic":"images/coding/ohq/student form.JPG",
 						"smallpic": "images/coding/ohq/student form-s.jpg",
 						"group":"ohq"
@@ -71,9 +71,16 @@
 					},
 					{
 						"title":"",
-						"description":"",
+						"description":"TA page",
 						"bigpic":"images/coding/ohq/ta page.JPG",
 						"smallpic": "images/coding/ohq/ta page-s.jpg",
+						"group":"ohq"
+					},
+					{
+						"title":"",
+						"description":"Dorothy and me at the start of PennApps (2/3 of our team)",
+						"bigpic":"images/coding/ohq/me n dorothy.JPG",
+						"smallpic": "images/coding/ohq/me n dorothy-s.jpg",
 						"group":"ohq"
 					}
 				]
@@ -92,6 +99,13 @@
 						"smallpic": "images/coding/vr eyetracking/oculus-s.jpg",
 						"group":"eyetracking"
 					}, 
+					{
+						"title":"",
+						"description":"Presenting the project at the CURF Research Expo",
+						"bigpic":"images/coding/vr eyetracking/purm expo.JPG",
+						"smallpic":"images/coding/vr eyetracking/purm expo-s.jpg",
+						"group":"eyetracking"
+					},
 					{
 						"title":"",
 						"description":"Will using the Oculus",
@@ -285,12 +299,35 @@
 		"project menu": true,
 		"content":[
 			{
-				"project-title":"100 Million MV <br>[coming soon]",
-				"thumbnail": "images/blank.png",
+				"project-title":"100 Million MV",
+				"thumbnail": "images/digital art/animation/100million/thumbnail-s.jpg",
 				"project-blurb":"handdrawn animated music video for \"100 Million\" by Charlie Hilton",
 				"project-description":"<strong>Created using:</strong> OpenToonz, Huion 810 drawing tablet<br><br>Summer 2016",
 				"group":"100million",
 				"project content":[
+					{
+						"title":"<img class='play'>",
+						"description":"",
+						"bigpic":"https://vimeo.com/179996296",
+						"smallpic": "images/digital art/animation/100million/thumbnail-s.jpg",
+						"group":"100million"
+					}
+				]
+			},
+			{
+				"project-title":"Chef Nan",
+				"thumbnail": "images/digital art/animation/chef nan/thumbnail -s.jpg",
+				"project-blurb":"Nan trying to figure out what to do with her life!",
+				"project-description":"Drawn/animated in OpenToonz.<br>August 2016",
+				"group":"chefnan",
+				"project content":[
+					{
+						"title":"<img class='play'>",
+						"description":"",
+						"bigpic":"https://vimeo.com/179574916",
+						"smallpic": "images/digital art/animation/chef nan/thumbnail -s.jpg",
+						"group":"chefnan"
+					}
 				]
 			},
 			{
@@ -301,49 +338,49 @@
 				"group":"rainyday",
 				"project content":[
 					{
-						"title":"<img class='play'>",
+						"title":"animated gif<img class='play'>",
 						"description":"Animated gif",
 						"bigpic":"images/digital art/animation/rainy day/knop-proj2-big.gif",
 						"smallpic": "images/digital art/animation/rainy day/knop-proj2-big-s.gif",
 						"group":"rainyday"
 					}, 
 					{
-						"title":"",
+						"title":"still 1",
 						"description":"Still #1",
 						"bigpic":"images/digital art/animation/rainy day/b1.png",
 						"smallpic": "images/digital art/animation/rainy day/b1-s.png",
 						"group":"rainyday"
 					}, 
 					{
-						"title":"",
+						"title":"still 2",
 						"description":"Still #2",
 						"bigpic":"images/digital art/animation/rainy day/b2.png",
 						"smallpic": "images/digital art/animation/rainy day/b2-s.png",
 						"group":"rainyday"
 					},
 					{
-						"title":"",
+						"title":"still 3",
 						"description":"Still #3",
 						"bigpic":"images/digital art/animation/rainy day/b3.png",
 						"smallpic": "images/digital art/animation/rainy day/b3-s.png",
 						"group":"rainyday"
 					},
 						{
-						"title":"",
+						"title":"still 4",
 						"description":"Still #4",
 						"bigpic":"images/digital art/animation/rainy day/b4.png",
 						"smallpic": "images/digital art/animation/rainy day/b4-s.png",
 						"group":"rainyday"
 					},
 						{
-						"title":"",
+						"title":"still 5",
 						"description":"Still #5",
 						"bigpic":"images/digital art/animation/rainy day/b5.png",
 						"smallpic": "images/digital art/animation/rainy day/b5-s.png",
 						"group":"rainyday"
 					},
 					{
-						"title":"",
+						"title":"still 6",
 						"description":"Still #6",
 						"bigpic":"images/digital art/animation/rainy day/b6.png",
 						"smallpic": "images/digital art/animation/rainy day/b6-s.png",
