@@ -3,7 +3,7 @@
 		"type":"single",
 		"section":"bottle-of-suze",
 		"project menu": true,
-		"description":"<div id='home'><span class='big'>welcome</span><br><span class='med'>My name is Suzanne, I'm an artist and a programmer.</span><br><span class='small'>This is a space I created to showcase the things I've been working on. Have a look around!</span></div><br><img id='homeImg' src='images/laying red.png'>"
+		"description":"<div id='home'><span class='big'>welcome</span><br><span class='med'>My name is Suzanne, I'm a developer and artist.</span><br><span class='small'>This is a space I created to showcase the things I've been working on. Have a look around!</span></div><br><img id='homeImg' src='images/laying red.png'>"
 
     }, 
     "about": {
@@ -88,35 +88,35 @@
 					{
 						"title":"",
 						"description":"The Oculus Rift retrofitted with an SMI EyeTracker, which we used to track the user's gaze during tests.",
-						"bigpic":"images/coding/vr eyetracking/oculus.jpg",
+						"bigpic":"images/coding/vr eyetracking/oculus.JPG",
 						"smallpic": "images/coding/vr eyetracking/oculus-s.jpg",
 						"group":"eyetracking"
 					}, 
 					{
 						"title":"",
 						"description":"Will using the Oculus",
-						"bigpic":"images/coding/vr eyetracking/will playing.jpg",
+						"bigpic":"images/coding/vr eyetracking/will playing.JPG",
 						"smallpic":"images/coding/vr eyetracking/will playing-s.jpg",
 						"group":"eyetracking"
 					},
 					{
 						"title":"",
 						"description":"Dr. Lane using the Oculus",
-						"bigpic":"images/coding/vr eyetracking/lane playing.jpg",
+						"bigpic":"images/coding/vr eyetracking/lane playing.JPG",
 						"smallpic":"images/coding/vr eyetracking/lane playing-s.jpg",
 						"group":"eyetracking"
 					},
 					{
 						"title":"",
 						"description":"Graph of stimuli: angle spawned v. angle killed. Higher spawn angles indicate stimuli farther out in the perephery, and higher kill angles mean the stimuli disappear more quickly. Our focus for this iteration of tests was the blue dots, or the instances in which the user looked at the stimulus but did not indicate that they saw the stimulus (via pressing a keyboard button).",
-						"bigpic":"images/coding/vr eyetracking/graph.jpg",
+						"bigpic":"images/coding/vr eyetracking/graph.JPG",
 						"smallpic":"images/coding/vr eyetracking/graph-s.jpg",
 						"group":"eyetracking"
 					},
 					{
 						"title":"",
 						"description":"Me, Will, and Ben Franklin",
-						"bigpic":"images/coding/vr eyetracking/me will ben.jpg",
+						"bigpic":"images/coding/vr eyetracking/me will ben.JPG",
 						"smallpic":"images/coding/vr eyetracking/me will ben-s.jpg",
 						"group":"eyetracking"
 					},
