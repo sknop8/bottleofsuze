@@ -37,18 +37,18 @@
 
             if (id) {
                 el = $('#' + id);
-            
+
                 if (el.length) {
                     this.title = el.html();
                 }
             }
         }
       });
-           
+
     });
 
 
- 
+
 
 if (window.location.hash === "") {
   localStorage.setItem('myhash','home');
@@ -86,7 +86,7 @@ console.log(window.location.hash);
       projectContentTemplate = Handlebars.compile($('#project-content-template').html());
 
 
-  /* Render the section items (model) to the element */ 
+  /* Render the section items (model) to the element */
   var ProjectMenuView = Backbone.View.extend({
     el: '#content-body',
     initialize: function () {
@@ -98,9 +98,9 @@ console.log(window.location.hash);
         view.$el.html(""); //empty the element
         var model = JSON.parse(JSON.stringify(view.model)); //cast model as an object
         $.each(model, function(key, val) {
-          
+
             view.$el.append(view.template(val)); //add model to the element
-          });     
+          });
       }
     });
 
@@ -117,7 +117,7 @@ console.log(window.location.hash);
         $.each(model, function(key, val) {
             val.id=key;
             view.$el.append(view.template(val)); //add model to the element
-          });     
+          });
       }
   });
 
@@ -144,7 +144,7 @@ console.log(window.location.hash);
   var json = $.getJSON("info.json", function(data) {
 
     //sections
-    $.each(data, function(key, val) { 
+    $.each(data, function(key, val) {
       var model = this;
       var title = key;
       var type, section, content, isProjectMenu = true, description = "";
@@ -175,7 +175,7 @@ console.log(window.location.hash);
         $menuWrapper = $('.menu-wrapper.' + section);
       }
 
-      var $menuOption = $("<div>" + title + "</div>"); 
+      var $menuOption = $("<div>" + title + "</div>");
       $menuOption.addClass(menuOptionClass + " " + section);
       $menuOption.attr('id', 'menu-option-' + replaceSpacesWithDashes(title));
 
@@ -200,14 +200,14 @@ console.log(window.location.hash);
                 projContent = val;
               } else if (key==="group") {
                 group = val;
-              } 
+              }
             });
-        
+
 
             $(".item-"+group).click(function() {
               $("#non-project-description").html("");
 
-              var projMod = new Backbone.Model(projContent); 
+              var projMod = new Backbone.Model(projContent);
               new ProjectContentView({model:projMod});
               new ProjectInfoView({model:mod.get(key)});
               $("#more-info").css("display","block");
@@ -219,9 +219,9 @@ console.log(window.location.hash);
               });
 
               //add a see more button
-              $("#see-more-button").html("see more");
-            });  
-          });  
+              // $("#see-more-button").html("see more");
+            });
+          });
         } //end else
 
         var parsedSection = parseSectionName(section);
@@ -233,10 +233,10 @@ console.log(window.location.hash);
         $(".menu-option." + section).addClass("clicked");
 
         if (type==="sub"){
-         $("#page-titles").html(titleTemplate({page:parsedSection, subPage:title}));    
+         $("#page-titles").html(titleTemplate({page:parsedSection, subPage:title}));
         } else {
         $("#page-titles").html(titleTemplate({page:parsedSection}));
-        } 
+        }
       }); //end $menuOption click
 
       if (type==="main"){
@@ -249,7 +249,7 @@ console.log(window.location.hash);
       //    $menuOption.click();
       //   // $(".menu-option").css("border-bottom", "3px solid var(--subAccent)");
       //   // $(".menu-option." + section).css("border-bottom", "3px solid var(--accent)");
-           
+
       //   $(".menu-option.bottle-of-suze").addClass("clicked");
       //   $(".menu-option." + section).css("border-bottom", "3px solid var(--accent)");
       // }
@@ -264,7 +264,7 @@ console.log(window.location.hash);
         $menuOption.addClass("clicked");
         $menuOption.css("border-bottom", "3px solid var(--accent)");
       }
-   
+
       var underlineStatus;
       var accentColor = window.getComputedStyle($("#page").get(0)).color;
 
@@ -278,8 +278,8 @@ console.log(window.location.hash);
 
           //underline when hover
           $(".menu-option."+section).css("border-bottom", "3px solid var(--hoverAccent)");
-        }, 
-        function () {  
+        },
+        function () {
           $(".sub-menu-option").css({"visibility":"hidden", "opacity":"0"});
 
           //if this section isnt clicked(already underlined), un-underline on exit
@@ -322,7 +322,7 @@ console.log(window.location.hash);
     });
   }); //end json
 
-  
+
   //remove dashes from section name
   var parseSectionName = function(name) {
     var splitName = name.split('-');
@@ -333,7 +333,7 @@ console.log(window.location.hash);
     return parsed + splitName[splitName.length-1];
   };
 
-  //replaces spaces with dashes for url 
+  //replaces spaces with dashes for url
   var replaceSpacesWithDashes = function(name) {
     var splitName = name.split(' ');
     var parsed = "";
@@ -349,7 +349,7 @@ console.log(window.location.hash);
     // console.log("hash change");
        var page = $("#page").html(),
        subPage = replaceSpacesWithDashes($('#sub-page').html());
-    
+
 
         var split = page.split("");
         page ="";
@@ -400,25 +400,25 @@ console.log(window.location.hash);
 
   //empty out project info after exiting a project
   var emptyOutInfo = function() {
-    new ProjectInfoView({model:""}); 
+    new ProjectInfoView({model:""});
     $("#back").html("");
 
-    $("#more-info").css("max-height","100px");
+    // $("#more-info").css("max-height","100px");
     $("#more-info").css("background-color","var(--pageBackground)");
-    $("#see-more-button").html("");
+    // $("#see-more-button").html("");
 
      $("#non-project-description").html("");
   };
 
   //see more button expand functionality
-  $("#see-more-button").click(function(){
-    if ($(this).html()==="see more"){
-      $("#more-info").css("max-height","500px");
-      $("#more-info").css("background-color","var(--subAccent)");
-      $(this).html("see less");
-    } else if ($(this).html()==="see less"){
-      $(this).html("see more");
-      $("#more-info").css("max-height","100px");
-      $("#more-info").css("background-color","var(--pageBackground)");
-    }
-  });
+  // $("#see-more-button").click(function(){
+  //   if ($(this).html()==="see more"){
+  //     $("#more-info").css("max-height","500px");
+  //     $("#more-info").css("background-color","var(--subAccent)");
+  //     $(this).html("see less");
+  //   } else if ($(this).html()==="see less"){
+  //     $(this).html("see more");
+  //     $("#more-info").css("max-height","100px");
+  //     $("#more-info").css("background-color","var(--pageBackground)");
+  //   }
+  // });

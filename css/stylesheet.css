@@ -98,7 +98,7 @@ body{
 }
 .menu-option {
 	padding-left:15px;
-	padding-right:15px; 
+	padding-right:15px;
 	font-size: 17pt;
 	border-bottom: 3px solid var(--subAccent);
 	font-weight:500;
@@ -107,7 +107,7 @@ body{
 .sub-menu-option {
 	/*display:none;*/
 	visibility: hidden;
-	font-size: 14pt;	
+	font-size: 14pt;
 	background-color:var(--dropdownBackground);
 }
 
@@ -152,8 +152,7 @@ body{
 #more-info{
 	padding-top:15px;
 	padding-bottom:15px;
-	max-height:90px;
-	overflow:hidden;
+	height: auto;
 
 	-webkit-transition:max-height 500ms ease-in-out, background-color 500ms ease-in-out;
     -moz-transition:max-height 500ms ease-in-out, background-color 500ms ease-in-out;
@@ -179,7 +178,6 @@ body{
 }
 .project-title{
 	font-size: 20pt;
-	
 }
 .project-blurb{
 	font-size:12pt;
@@ -233,13 +231,13 @@ body{
 	left:5%;
 	right:5%;
 
-	-webkit-transition:opacity 150ms ease-in-out; 
+	-webkit-transition:opacity 150ms ease-in-out;
     -moz-transition:opacity 150ms ease-in-out;
     -o-transition:opacity 150ms ease-in-out;
     transition:opacity 150ms ease-in-out;
 }
 .item-title-div{
- display: none;   
+ display: none;
 }
 
 .play{
@@ -264,11 +262,11 @@ body{
 
 	opacity:0;
 
-    -webkit-transition:opacity 250ms ease-in-out; 
+    -webkit-transition:opacity 250ms ease-in-out;
     -moz-transition:opacity 250ms ease-in-out;
     -o-transition:opacity 250ms ease-in-out;
     transition:opacity 250ms ease-in-out;
-} 
+}
 .item-overlay-menu{
 	background-color:var(--accent);
 }
@@ -334,7 +332,7 @@ body{
     -moz-transition:opacity 150ms ease-in-out, background-size 200ms ease-in-out;
     -o-transition:opacity 150ms ease-in-out, background-size 200ms ease-in-out;
     transition:opacity 150ms ease-in-out, background-size 200ms ease-in-out;
-} 
+}
 .fancybox-close:hover{
 	opacity:1;
 	background-size:22px;
@@ -388,7 +386,7 @@ body{
 	z-index: 50;
 } .fancybox-overlay{
 	z-index:49;
-}  
+}
 
 div.fancybox-inner{
 		overflow:hidden !important;
@@ -397,5 +395,3 @@ div.fancybox-inner{
 .fancybox-skin{
 	background:transparent;
 }
-
-
