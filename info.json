@@ -9,37 +9,118 @@
     	"type":"single",
     	"section":"about",
     	"project menu": false,
-    	"description":"<div id='aboutDiv'><b>about me</b><br>Hi! My name is Suzanne, I'm a Junior pursuing a BSE in Digital Media Design (Computer Science) at the University of Pennsylvania. I like programming, art, graphics, listening to Beach House, and making videos. In my work, I hope to combine computer science, art, and music in a way that sheds light on my own mixed identity.<br><br><b>links to stuff</b><li><a href='https://sknop8.github.io/ohq' target='_blank'>Office Hours Queue (OHQ)</a> Web app to improve the office hours process (PennApps Fall 2016)</li><li><a href='https://sknop8.github.io/Music-xx' target='_blank'>Music xx</a> Music visualization app I made in Spring 2016</li><li><a href='https://www.etsy.com/shop/bottleofsuze' target='_blank'>Bottle of Suze Etsy shop</a> My Etsy shop - originally designed shirts & prints</li><li><a href='https://youtu.be/zJeW3rsiyq8' target='_blank'>(Wo)man Up</a> Public installation piece another student and I made concerning gender inequality</li><li><a href='https://youtu.be/hzD3V64MkIg' target='_blank'>Project Inspiration: Portraiture</a> A project I did on portraiture in writing, visual art, and music</li><li><a href='https://apah.wikispaces.com/Don%27t+Go+with+the+Crowd' target='_blank'>Don't Go with the Crowd</a> Art History paper/blog post I wrote about crowd portrayal in art</li><br><b>contact me here</b><br>sknop@seas.upenn.edu<br><br><b>about this site</b><br>This website was completely built and designed by me. It is named after <a href='http://kemperartmuseum.wustl.edu/collection/explore/artwork/1105' target='_blank'><i>La bouteille de Suze</i>, 1912</a>, a Picasso still life. All the work shown is my own, or part of a team project with which I was a major part of. Enjoy!<br><br>Below are some fun pictures.</div>",
+    	"description":"<div id='aboutDiv'><b>about me</b><br>Hi! My name is Suzanne, I'm a Junior pursuing a BSE in Digital Media Design (Computer Science) at the University of Pennsylvania. I like programming, art, graphics, listening to Beach House, and making videos. In my work, I hope to combine computer science, art, and music in a way that sheds light on my own mixed identity.<br><br><b>links to stuff</b><li><a href='https://vimeo.com/bottleofsuze' target='_blank'>Vimeo</a> / <a href='https://www.youtube.com/channel/UC7r00ugYwWkK1jfQEiW1mcA' target='_blank'>YouTube</a> videos I've made!!</li><li><a href='https://sknop8.github.io/LSystems' target='_blank'>L-System</a>, <a href='https://github.com/sknop8/ProceduralCity' target='_blank'>Procedural City</a>, <a href='https://sknop8.github.io/BioCrowds' target='_blank'>Crowd Simulation</a>, <a href='https://sknop8.github.io/Noise' target='_blank'>Noise</a> A few really cool & fun procedural graphics projects I've done (Spring 2017)!</li><li><a href='https://sknop8.github.io/Music-xx' target='_blank'>Music xx</a> Music visualization app I made in Spring 2016</li><li><a href='https://www.etsy.com/shop/bottleofsuze' target='_blank'>Bottle of Suze Etsy shop</a> My Etsy shop - originally designed shirts & prints</li><li><a href='https://youtu.be/zJeW3rsiyq8' target='_blank'>(Wo)man Up</a> Public installation piece another student and I made concerning gender inequality</li><li><a href='https://apah.wikispaces.com/Don%27t+Go+with+the+Crowd' target='_blank'>Don't Go with the Crowd</a> Art History paper/blog post I wrote in 2015 about crowd portrayal in art</li><br><b>contact me here</b><br>sknop@seas.upenn.edu<br><a href='http://linkedin.com/in/suzanne-knop' target='_blank'>linkedin</a><br><br><b>about this site</b><br>This website was completely built and designed by me. It is named after <a href='http://kemperartmuseum.wustl.edu/collection/explore/artwork/1105' target='_blank'><i>La bouteille de Suze</i>, 1912</a>, a Picasso still life. All the work shown is my own, or part of a team project with which I was a major part of. Enjoy!<br><br>Below are some fun pictures.</div>",
     	"content":[
     		{
     			"title":"",
-				"description":"me in front of my senior project exhibition (december 2014)",
-				"bigpic":"images/about me/IMG_0972.PNG",
-				"smallpic": "images/about me/IMG_0972-s.png",
+				"description":"yosemite (2017)",
+				"bigpic":"images/about me/yosemite.jpg",
+				"smallpic": "images/about me/yosemite-s.jpg",
 				"group":"about"
     		},
     		{
     			"title":"",
-				"description":"me at the louvre in front of a cimabue having the time of my life (july 2015)",
-				"bigpic":"images/about me/louvre.jpg",
-				"smallpic": "images/about me/louvre-s.jpg",
+				"description":"philadelphia (2017)",
+				"bigpic":"images/about me/me-red.jpg",
+				"smallpic": "images/about me/me-red-s.jpg",
 				"group":"about"
     		},
     		{
     			"title":"",
-				"description":"me and my little brother at avenida paulista in s&atilde;o paulo (july 2016)",
-				"bigpic":"images/about me/sao paulo.jpg",
-				"smallpic": "images/about me/sao paulo-s.jpg",
+				"description":"SF MoMA (2017)",
+				"bigpic":"images/about me/sfmoma.jpg",
+				"smallpic": "images/about me/sfmoma-s.jpg",
 				"group":"about"
     		}
     	]
     },
     "code":{
     	"type":"single",
-    	"section":"coding",
+    	"section":"code",
     	"project menu": true,
-    	"description":"My major programming projects",
+    	"description":"My major programming projects. <br> For a more extensive overview, check out my github <a href='http://github.com/sknop8' target='_blank'>here</a>!",
     	"content":[
+			{
+				"project-title":"Procedural City",
+				"thumbnail":"images/coding/city/main.jpg",
+				"project-blurb":"generated by a shape grammar",
+				"project-description":"For this project, I designed a shape grammar that creates urban buildings, and designed a city layout to place the buildings generated by my shape grammar. The overall result is a procedurally generated city, which I named Suzville!<br><br>The shape grammar parser that I wrote in order to be able to create the city is a modified version of the L-System parser I created in a previous <a href='http://github.com/sknop8/LSystems' target='_blank'>L-System project</a>.<br><br>The specific grammar rules I used, and more about my implementation and design choices can be found in the <a href='http://github.com/sknop8/ProceduralCity' target='_blank'>github repo</a> :)<br><br>This project was written primarily using <a href='https://threejs.org/' target='_blank'>ThreeJS</a>, a 3d library for JavaScript. I created this project in the context of the experimental (CIS 700) Procedural Graphics class taught in the Spring of 2017.",
+				"group":"city",
+				"project content":[
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"https://raw.githubusercontent.com/sknop8/ProceduralCity/master/imgs/main%201.png",
+						"smallpic":"images/coding/city/main.jpg",
+						"group":"city"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"https://raw.githubusercontent.com/sknop8/ProceduralCity/master/imgs/block_view.png",
+						"smallpic":"images/coding/city/layout.jpg",
+						"group":"city"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"https://raw.githubusercontent.com/sknop8/ProceduralCity/master/imgs/main%203.png",
+						"smallpic":"images/coding/city/below.jpg",
+						"group":"city"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"https://raw.githubusercontent.com/sknop8/ProceduralCity/master/imgs/park_view.png",
+						"smallpic":"images/coding/city/park.jpg",
+						"group":"city"
+					},
+					{
+						"title":"",
+						"description":"",
+						"bigpic":"https://raw.githubusercontent.com/sknop8/ProceduralCity/master/imgs/taller_center.png",
+						"smallpic":"images/coding/city/skyline.jpg",
+						"group":"city"
+					}
+				]
+			},
+			{
+				"project-title":"Internet Weather App",
+				"thumbnail": "images/coding/berkman/world-view-s.jpg",
+				"project-blurb":"with the Berkman Klein Center at Harvard University",
+				"project-description":"<br>This was the first project I worked on with <a href='http://hack4impact.org' target='_blank'>Hack4Impact</a>. We worked on this project in a small team of developers in Fall 2016. <br><br>In partnership with the <a href='https://cyber.harvard.edu/' target='_blank'>Berkman Klein Center for Internet & Society</a>, and their existing research project, the <a href='https://thenetmonitor.org/' target='_blank'>Internet Monitor</a>, we created a data visualizing \"internet weather app\" that allows users to check the status of internet access, censorship, and cybersecurity climates around the world, with both global and indivudal country views. The purpose of this app is to spread awareness about internet freedom and access issues, and provide convenient access to timely, high-quality data to journalists, researchers, and advocates.<br><br>This app was Hack4Impact's first mobile app! It was created using primarily <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a>, a JavaScript framework for building native mobile apps. We got our data from the <a href='https://github.com/berkmancenter/internet_monitor/blob/dev/doc/platform_data_api.md' target='_blank>Internet Monitor API<a/>, and used <a href='https://d3js.org/' target='_blank'>D3</a> for our data visualizations.<br><br>I was a frontend developer on this project, and also was the design lead for the team (in charge of mockups, major design decisions, etc).<br><br>View the repository <a href='https://github.com/hack4impact/im_mobile' target='_blank'>here</a>, and check out some screenshots for the app below!<br><br>Fall 2016",
+				"group":"berkman",
+				"project content":[
+					{
+						"title":"",
+						"description":"world view",
+						"bigpic":"https://raw.githubusercontent.com/hack4impact/im_mobile/master/screenshots/world_view.png",
+						"smallpic":"images/coding/berkman/world-view-s.jpg",
+						"group":"berkman"
+					},
+					{
+						"title":"",
+						"description":"search view",
+						"bigpic":"https://raw.githubusercontent.com/hack4impact/im_mobile/master/screenshots/search_view.png",
+						"smallpic":"images/coding/berkman/search-view-s.jpg",
+						"group":"berkman"
+					},
+					{
+						"title":"",
+						"description":"data graph view",
+						"bigpic":"https://raw.githubusercontent.com/hack4impact/im_mobile/master/screenshots/data_graph_view.png",
+						"smallpic":"images/coding/berkman/data-graph-view-s.jpg",
+						"group":"berkman"
+					},
+					{
+						"title":"",
+						"description":"data bar view",
+						"bigpic":"https://raw.githubusercontent.com/hack4impact/im_mobile/master/screenshots/data_bar_view.png",
+						"smallpic":"images/coding/berkman/data-bar-view-s.jpg",
+						"group":"berkman"
+					}
+				]
+			},
     	{
 				"project-title":"Office Hours Queue (OHQ)",
 				"thumbnail": "images/coding/ohq/home page2-s.JPG",
@@ -287,10 +368,10 @@
     	]
 
 	},
-	"video+animation":
+	"video + animation":
 	{
 		"type": "single",
-		"section": "video+animation",
+		"section": "videoanimation",
 		"project menu": true,
 		"description":"movement is important to me, a lot of emotion is stored in movement (or lack of movement). i got into video (and animated) work in 2016, wherein i found a medium that i could more naturally express emotion. the work i have made since then has been some of the most deeply personal, raw, and also fun/rewarding art i have ever created.",
 		"content": [

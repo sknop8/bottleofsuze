@@ -65,7 +65,7 @@ body{
 }
 /*----------------title stuff--------------*/
 #page-titles{
-	font-size:24pt;
+	font-size:22pt;
 	padding-top:10px;
 	padding-bottom:10px;
 }
@@ -99,7 +99,7 @@ body{
 .menu-option {
 	padding-left:15px;
 	padding-right:15px;
-	font-size: 17pt;
+	font-size: 15pt;
 	border-bottom: 3px solid var(--subAccent);
 	font-weight:500;
 }
@@ -107,8 +107,10 @@ body{
 .sub-menu-option {
 	/*display:none;*/
 	visibility: hidden;
-	font-size: 14pt;
+	font-size: 12pt;
 	background-color:var(--dropdownBackground);
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .menu-option:hover, .sub-menu-option:hover {
@@ -275,10 +277,10 @@ body{
 	border:5px solid var(--accent);
 }
 .item-wrapper:hover .item-overlay-menu {
-	opacity:0.9;
+	opacity:0.85;
 }
 .item-wrapper:hover .item-overlay-content{
-	opacity: 0.9;
+	opacity: 0.85;
 }
 .item-pic, .item-title, .item-overlay-content, .item-overlay-menu{
 	position:absolute;
