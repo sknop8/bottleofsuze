@@ -292,13 +292,13 @@
 		"type": "single",
 		"section": "video+animation",
 		"project menu": true,
-		"description":"movement is important to me, a lot of emotion is stored in movement (or lack of movement). i got into video (and animated) work in 2016, wherein i found a medium that i could more naturally express emotion. the work i have made since then has been some of the most deeply personal and raw art i have ever created.",
+		"description":"movement is important to me, a lot of emotion is stored in movement (or lack of movement). i got into video (and animated) work in 2016, wherein i found a medium that i could more naturally express emotion. the work i have made since then has been some of the most deeply personal, raw, and also fun/rewarding art i have ever created.",
 		"content": [
 			{
 				"project-title":"shadows coming back",
 				"thumbnail":"images/video/shadows-s.jpg",
 				"project-blurb":"july 5 2017",
-				"project-description":"defective<br>glitch me<br>glitch, me<br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/uzkiySzRZ7w?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>Music sources: Marcy Me - Jay-Z, Turn Into - Jay Som<br>Video sources: Vertical Roll - Joan Jonas (1972) <br>All other video and audio was recorded by me on an iPhone 7.<br>The black screen with white lines was made by me in Processing.<br>Everything was edited in Premiere Pro.",
+				"project-description":"thinking about defectiveness and glitchiness<br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/uzkiySzRZ7w?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>Music sources: Marcy Me - Jay-Z, Turn Into - Jay Som<br>Video sources: Vertical Roll - Joan Jonas (1972) <br>All other video and audio was recorded by me on an iPhone 7.<br>The black screen with white lines was written by me in Processing.<br>Edited in Premiere Pro.",
 				"group":"shadows",
 				"project content":[]
 			},
@@ -306,15 +306,15 @@
 				"project-title":"sleeping is a form of leaving",
 				"thumbnail":"images/video/sleeping-s.jpg",
 				"project-blurb":"june 14 2017",
-				"project-description":"playing around with using <a href='https://processing.org/' target='_blank'>Processing</a> in my videos<br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/SIvzRxj1yTI?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>Geometry stuff done with Processing<br>Videos shot by my iPhone 7<br>Edited in Premiere<br>Music: Acho Um Pouco Bom - CSS",
+				"project-description":"started to mix <a href='https://processing.org/' target='_blank'>Processing</a> sketches with real footage<br>i made this while in san francisco in summer 2017, still trying to get used to everything and take care of myself at the same time<br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/SIvzRxj1yTI?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>Geometry stuff done with Processing<br>Videos shot by my iPhone 7<br>Edited in Premiere<br>Music: Acho Um Pouco Bom - CSS",
 				"group":"sleeping",
 				"project content":[]
 			},
 			{
 				"project-title":"heavy spill",
 				"thumbnail":"images/video/heavyspill-s.jpg",
-				"project-blurb":"",
-				"project-description":"to where has my body abandoned me?<br><br>videos taken by me, edited in Premiere Pro, music: Velvet Ring - <a href='https://bigthief.bandcamp.com/' target='_blank'>Big Thief</a><br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/PAHS6BMWMV0?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>this video was created as the final project for my video class in spring 2017. it wraps up my emotional processing of the events and aftermath of fall 2016.",
+				"project-blurb":"to where has my body abandoned me?",
+				"project-description":"this video was created as the final project for my video class in spring 2017. it wraps up my emotional processing of the events and aftermath of fall 2016. it was made to be watched in a quiet, immersive, and reflective space.<br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/PAHS6BMWMV0?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>videos taken by me, edited in Premiere Pro, music: Velvet Ring - <a href='https://bigthief.bandcamp.com/' target='_blank'>Big Thief</a>",
 				"group":"heavy",
 				"project content":[]
 			},
@@ -322,8 +322,16 @@
 				"project-title":"no room for doubt",
 				"thumbnail":"images/video/nodoubt-s.jpg",
 				"project-blurb":"march 18 2017",
-				"project-description":"<br><iframe width='560' height='315' src='https://www.youtube.com/embed/xI-4y_K4Rk8?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>Music:<br>No Room For Doubt - Lianne La Havas (ft Willy Mason)<br>Seigfried - Frank Ocean<br><br>Shot on an iPhone 7<br>Edited in Premiere Pro",
+				"project-description":"<br><iframe width='560' height='315' src='https://www.youtube.com/embed/xI-4y_K4Rk8?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>This is the first video that was created because I desparately needed an outlet for what I was feeling and experiencing, and it's also the first video that I started to play around with layering.<br><br>Music:<br>No Room For Doubt - Lianne La Havas (ft Willy Mason)<br>Seigfried - Frank Ocean<br><br>Shot on an iPhone 7<br>Edited in Premiere Pro",
 				"group":"doubt",
+				"project content":[]
+			},
+			{
+				"project-title":"beginning",
+				"thumbnail":"images/video/xanax-s.jpg",
+				"project-blurb":"september 2016",
+				"project-description":"<br><iframe width='560' height='315' src='https://www.youtube.com/embed/gTc1mCn7KJs?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>One of the first videos I made -- I wanted to experiment with how video interacts with sound, and how images can be used like instruments. I remember feeling eager, artistic, and volatile at the time, but also comfortable with the warmth of Septembers in Philly.<br><br>Music: 'Xanax' (Moon Boots Remix) by Elohim<br>Shot on my little iPhone 5S",
+				"group":"xanax",
 				"project content":[]
 			},
 			{
@@ -332,6 +340,22 @@
 				"project-blurb":"",
 				"project-description":"A lil music video to sway to, a lil song to fall in love to.<br><br>Handdrawn and animated using: OpenToonz, Huion 810 drawing tablet<br>Music: \"100 Million\" by Charlie Hilton ft. Mac Demarco<br><br>Summer 2016<br><br><iframe src='https://player.vimeo.com/video/179996296' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
 				"group":"100million",
+				"project content":[]
+			},
+			{
+				"project-title":"Chef Nan",
+				"thumbnail": "images/digital art/animation/chef nan/thumbnail -s.jpg",
+				"project-blurb":"",
+				"project-description":"My friend, Nan, trying to figure out what to do with her life!<br>Drawn/animated in OpenToonz.<br>August 2016<br><br><iframe src='https://player.vimeo.com/video/179574916' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+				"group":"chefnan",
+				"project content":[]
+			},
+			{
+				"project-title":"Rainy Day",
+				"thumbnail": "images/digital art/animation/rainy day/b1-s.png",
+				"project-blurb":"animated gif created in Photoshop ",
+				"project-description":"The starting point idea for this gif was inspired by the song \"Rainy Days\" by Late Night Alumni, which actually takes most of its lyrics from the poem \"The Rainy Day\" by Henry Wadsworth Longfellow. The gif is about that old childhood feeling of having created something great, only to discover that the idea isn't novel or great at all. The lyric \"the day is cold and dark and dreary\" stuck out to me, so this is the initial mood of the girl in the gif. The mood is temporarily overcome by her great idea, but afterwards she finds herself once again in the cold, dark, and dreary state she was in before.<br><br>Created Fall 2015<br><br><img src='images/digital art/animation/rainy day/knop-proj2-big.gif' width='500px'>",
+				"group":"rainyday",
 				"project content":[]
 			}
 		]
