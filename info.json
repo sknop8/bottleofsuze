@@ -4,14 +4,13 @@
 		"section":"bottle-of-suze",
 		"project menu": true,
 		"description":"<div id='home'><span class='big'>welcome</span><br><span class='med'>My name is Suzanne, I'm a developer and artist.</span><br><span class='small'>This is a space I created to showcase the things I've been working on. Have a look around!</span></div><br><div class='row'><img id='homeImg' class='col-md-12' src='images/laying red.png'></div>"
-
-    }, 
+    },
     "about": {
     	"type":"single",
-    	"section":"about", 
-    	"project menu": false,         
-    	"description":"<div id='aboutDiv'><b>about me</b><br>Hi! My name is Suzanne, I'm a sophomore pursuing a BSE in Digital Media Design at the University of Pennsylvania. I like programming, art, 3D modeling, listening to Beach House, and making music videos. In my work, I hope to combine computer science, art, and music in a way that sheds light on my own mixed identity.<br><br><b>links to stuff</b><li><a href='https://sknop8.github.io/ohq' target='_blank'>Office Hours Queue (OHQ)</a> Web app to improve the office hours process (PennApps Fall 2016)</li><li><a href='https://sknop8.github.io/Music-xx' target='_blank'>Music xx</a> Music visualization app I made in Spring 2016</li><li><a href='https://www.etsy.com/shop/bottleofsuze' target='_blank'>Bottle of Suze Etsy shop</a> My Etsy shop - originally designed shirts & prints</li><li><a href='https://youtu.be/zJeW3rsiyq8' target='_blank'>(Wo)man Up</a> Public installation piece another student and I made concerning gender inequality</li><li><a href='https://youtu.be/hzD3V64MkIg' target='_blank'>Project Inspiration: Portraiture</a> A project I did on portraiture in writing, visual art, and music</li><li><a href='https://apah.wikispaces.com/Don%27t+Go+with+the+Crowd' target='_blank'>Don't Go with the Crowd</a> Art History paper/blog post I wrote about crowd portrayal in art</li><br><b>contact me here</b><br>sknop@seas.upenn.edu<br><br><b>about this site</b><br>This website was completely built and designed by me. It is named after <a href='http://kemperartmuseum.wustl.edu/collection/explore/artwork/1105' target='_blank'><i>La bouteille de Suze</i>, 1912</a>, a Picasso still life. All the work shown is my own, or part of a team project with which I was a major part of. Enjoy!</div>",
-    	"content":[             
+    	"section":"about",
+    	"project menu": false,
+    	"description":"<div id='aboutDiv'><b>about me</b><br>Hi! My name is Suzanne, I'm a Junior pursuing a BSE in Digital Media Design (Computer Science) at the University of Pennsylvania. I like programming, art, graphics, listening to Beach House, and making videos. In my work, I hope to combine computer science, art, and music in a way that sheds light on my own mixed identity.<br><br><b>links to stuff</b><li><a href='https://sknop8.github.io/ohq' target='_blank'>Office Hours Queue (OHQ)</a> Web app to improve the office hours process (PennApps Fall 2016)</li><li><a href='https://sknop8.github.io/Music-xx' target='_blank'>Music xx</a> Music visualization app I made in Spring 2016</li><li><a href='https://www.etsy.com/shop/bottleofsuze' target='_blank'>Bottle of Suze Etsy shop</a> My Etsy shop - originally designed shirts & prints</li><li><a href='https://youtu.be/zJeW3rsiyq8' target='_blank'>(Wo)man Up</a> Public installation piece another student and I made concerning gender inequality</li><li><a href='https://youtu.be/hzD3V64MkIg' target='_blank'>Project Inspiration: Portraiture</a> A project I did on portraiture in writing, visual art, and music</li><li><a href='https://apah.wikispaces.com/Don%27t+Go+with+the+Crowd' target='_blank'>Don't Go with the Crowd</a> Art History paper/blog post I wrote about crowd portrayal in art</li><br><b>contact me here</b><br>sknop@seas.upenn.edu<br><br><b>about this site</b><br>This website was completely built and designed by me. It is named after <a href='http://kemperartmuseum.wustl.edu/collection/explore/artwork/1105' target='_blank'><i>La bouteille de Suze</i>, 1912</a>, a Picasso still life. All the work shown is my own, or part of a team project with which I was a major part of. Enjoy!<br><br>Below are some fun pictures.</div>",
+    	"content":[
     		{
     			"title":"",
 				"description":"me in front of my senior project exhibition (december 2014)",
@@ -32,14 +31,14 @@
 				"bigpic":"images/about me/sao paulo.jpg",
 				"smallpic": "images/about me/sao paulo-s.jpg",
 				"group":"about"
-    		}   
-    	]     
-    },     
-    "coding":{         
+    		}
+    	]
+    },
+    "code":{
     	"type":"single",
-    	"section":"coding",         
+    	"section":"coding",
     	"project menu": true,
-    	"description":"My major programming projects",         
+    	"description":"My major programming projects",
     	"content":[
     	{
 				"project-title":"Office Hours Queue (OHQ)",
@@ -98,7 +97,7 @@
 						"bigpic":"images/coding/vr eyetracking/oculus.JPG",
 						"smallpic": "images/coding/vr eyetracking/oculus-s.jpg",
 						"group":"eyetracking"
-					}, 
+					},
 					{
 						"title":"",
 						"description":"Presenting the project at the CURF Research Expo",
@@ -165,7 +164,7 @@
 							"smallpic": "images/coding/bottle of suze/content page-s.png",
 							"group":"bottleofsuzesite"
 						},
-					
+
 						{
 							"title":"",
 							"description":"project menu example (hovering on st. vincent)",
@@ -179,7 +178,7 @@
 							"bigpic":"images/coding/bottle of suze/expanded project info.png",
 							"smallpic": "images/coding/bottle of suze/expanded project info-s.png",
 							"group":"bottleofsuzesite"
-						},	
+						},
 						{
 							"title":"",
 							"description":"media viewing example (using fancyBox)",
@@ -202,7 +201,7 @@
 						"bigpic":"images/coding/musicxx/login page.png",
 						"smallpic": "images/coding/musicxx/login page-s.png",
 						"group":"musicxx"
-					}, 
+					},
 					{
 						"title":"",
 						"description":"Connect Spotify",
@@ -253,28 +252,28 @@
 						"bigpic":"images/coding/dinner thyme/start page.png",
 						"smallpic": "images/coding/dinner thyme/start page-s.png",
 						"group":"dinnerthyme"
-					}, 
+					},
 					{
 						"title":"",
 						"description":"During the game",
 						"bigpic":"images/coding/dinner thyme/gameplay.png",
 						"smallpic": "images/coding/dinner thyme/gameplay-s.png",
 						"group":"dinnerthyme"
-					}, 
+					},
 					{
 						"title":"",
 						"description":"Our Makey Makey",
 						"bigpic":"images/coding/dinner thyme/makey makey.JPG",
 						"smallpic": "images/coding/dinner thyme/makey makey-s.jpg",
 						"group":"dinnerthyme"
-					}, 
+					},
 					{
 						"title":"",
 						"description":"End screen",
 						"bigpic":"images/coding/dinner thyme/end screen.png",
 						"smallpic": "images/coding/dinner thyme/end screen-s.png",
 						"group":"dinnerthyme"
-					}, 
+					},
 					{
 						"title":"",
 						"description":"Sally and me",
@@ -284,19 +283,70 @@
 					}
 				]
 			}
-			
+
     	]
-		
+
 	},
-	"digital art": {
-		"type":"main",
-		"section":"digital-art",
-		"project menu": false
+	"video+animation":
+	{
+		"type": "single",
+		"section": "video+animation",
+		"project menu": true,
+		"description":"movement is important to me, a lot of emotion is stored in movement (or lack of movement). i got into video (and animated) work in 2016, wherein i found a medium that i could more naturally express emotion. the work i have made since then has been some of the most deeply personal and raw art i have ever created.",
+		"content": [
+			{
+				"project-title":"shadows coming back",
+				"thumbnail":"images/video/shadows-s.jpg",
+				"project-blurb":"july 5 2017",
+				"project-description":"defective<br>glitch me<br>glitch, me<br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/uzkiySzRZ7w?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>Music sources: Marcy Me - Jay-Z, Turn Into - Jay Som<br>Video sources: Vertical Roll - Joan Jonas (1972) <br>All other video and audio was recorded by me on an iPhone 7.<br>The black screen with white lines was made by me in Processing.<br>Everything was edited in Premiere Pro.",
+				"group":"shadows",
+				"project content":[]
+			},
+			{
+				"project-title":"sleeping is a form of leaving",
+				"thumbnail":"images/video/sleeping-s.jpg",
+				"project-blurb":"june 14 2017",
+				"project-description":"playing around with using <a href='https://processing.org/' target='_blank'>Processing</a> in my videos<br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/SIvzRxj1yTI?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>Geometry stuff done with Processing<br>Videos shot by my iPhone 7<br>Edited in Premiere<br>Music: Acho Um Pouco Bom - CSS",
+				"group":"sleeping",
+				"project content":[]
+			},
+			{
+				"project-title":"heavy spill",
+				"thumbnail":"images/video/heavyspill-s.jpg",
+				"project-blurb":"",
+				"project-description":"to where has my body abandoned me?<br><br>videos taken by me, edited in Premiere Pro, music: Velvet Ring - <a href='https://bigthief.bandcamp.com/' target='_blank'>Big Thief</a><br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/PAHS6BMWMV0?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>this video was created as the final project for my video class in spring 2017. it wraps up my emotional processing of the events and aftermath of fall 2016.",
+				"group":"heavy",
+				"project content":[]
+			},
+			{
+				"project-title":"no room for doubt",
+				"thumbnail":"images/video/nodoubt-s.jpg",
+				"project-blurb":"march 18 2017",
+				"project-description":"<br><iframe width='560' height='315' src='https://www.youtube.com/embed/xI-4y_K4Rk8?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><br><br>Music:<br>No Room For Doubt - Lianne La Havas (ft Willy Mason)<br>Seigfried - Frank Ocean<br><br>Shot on an iPhone 7<br>Edited in Premiere Pro",
+				"group":"doubt",
+				"project content":[]
+			},
+			{
+				"project-title":"100 Million",
+				"thumbnail": "images/digital art/animation/100million/thumbnail-s.jpg",
+				"project-blurb":"",
+				"project-description":"A lil music video to sway to, a lil song to fall in love to.<br><br>Handdrawn and animated using: OpenToonz, Huion 810 drawing tablet<br>Music: \"100 Million\" by Charlie Hilton ft. Mac Demarco<br><br>Summer 2016<br><br><iframe src='https://player.vimeo.com/video/179996296' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+				"group":"100million",
+				"project content":[]
+			}
+		]
+	},
+	"art":
+	{
+		"type": "main",
+		"section": "art",
+		"project menu": true
 	},
 	"animation":{
 		"type":"sub",
 		"section":"digital-art",
 		"project menu": true,
+		"active":false,
 		"content":[
 			{
 				"project-title":"100 Million MV",
@@ -343,14 +393,14 @@
 						"bigpic":"images/digital art/animation/rainy day/knop-proj2-big.gif",
 						"smallpic": "images/digital art/animation/rainy day/knop-proj2-big-s.gif",
 						"group":"rainyday"
-					}, 
+					},
 					{
 						"title":"still 1",
 						"description":"Still #1",
 						"bigpic":"images/digital art/animation/rainy day/b1.png",
 						"smallpic": "images/digital art/animation/rainy day/b1-s.png",
 						"group":"rainyday"
-					}, 
+					},
 					{
 						"title":"still 2",
 						"description":"Still #2",
@@ -386,7 +436,7 @@
 						"smallpic": "images/digital art/animation/rainy day/b6-s.png",
 						"group":"rainyday"
 					}
-					
+
 				]
 			}
 		]
@@ -398,7 +448,7 @@
 		"description":"3D modeling projects made with Autodesk Maya",
 		"content":[
 			{
-				"project-title":"St. Vincent", 
+				"project-title":"St. Vincent",
 				"thumbnail":"images/digital art/modeling/annie/5-2-16 img1-s.jpg",
 				"project-blurb":"3D model of St. Vincent based on her music video for \"Digital Witness\"",
 				"project-description":"<strong>Created using:</strong> Autodesk Maya<br>Spring 2016",
@@ -464,7 +514,7 @@
 							"smallpic": "images/digital art/modeling/fragonard/frag2-0043-002-s.png",
 							"group":"fragonard"
 						}
-		
+
 					]
 			},
 			{
@@ -489,19 +539,19 @@
 							"smallpic": "images/digital art/modeling/keurig/turntable thumb-s.png",
 							"group":"keurigV"
 						}
-		
+
 					]
 			}
 		]
 	},
-	"digital painting":{
+	"digital":{
 		"type":"sub",
-		"section":"digital-art",
+		"section":"art",
 		"project menu": false,
 		"description":"Digital paintings and sketches, most were done on an iPad Air 2 using the app Procreate",
 		"content":[
 			{
-				"title":"2015", 
+				"title":"2015",
 				"description":"grumpy mug",
 				"bigpic":"images/digital art/digital painting/2015-05 grumpy mug.png",
 				"smallpic": "images/digital art/digital painting/2015-05 grumpy mug-s.png",
@@ -585,42 +635,42 @@
 				"group":"digital-painting"
 			},
 			{
-				"title":"2014", 
+				"title":"2014",
 				"description":"brother on the couch",
 				"bigpic":"images/digital art/digital painting/2014-11 bro couch.png",
 				"smallpic":"images/digital art/digital painting/2014-11 bro couch-s.png",
 				"group":"digital-painting"
 			},
 			{
-				"title":"2014", 
+				"title":"2014",
 				"description":"virginia woolf",
 				"bigpic":"images/digital art/digital painting/2014-10 woolf portrait.jpeg",
 				"smallpic": "images/digital art/digital painting/2014-10 woolf portrait-s.jpeg",
 				"group":"digital-painting"
 			},
 			{
-				"title":"2014", 
+				"title":"2014",
 				"description":"",
 				"bigpic":"images/digital art/digital painting/2014-10 purple portrait.jpeg",
 				"smallpic": "images/digital art/digital painting/2014-10 purple portrait-s.jpeg",
 				"group":"digital-painting"
 			},
 			{
-				"title":"2014", 
+				"title":"2014",
 				"description":"",
 				"bigpic":"images/digital art/digital painting/2014-10 einstein portrait.jpeg",
 				"smallpic": "images/digital art/digital painting/2014-10 einstein portrait-s.jpeg",
 				"group":"digital-painting"
 			},
 			{
-				"title":"2014", 
+				"title":"2014",
 				"description":"virginia woolf, painted in Photoshop",
 				"bigpic":"images/digital art/digital painting/2014-07 woolf bw portrait.png",
 				"smallpic": "images/digital art/digital painting/2014-07 woolf bw portrait-s.png",
 				"group":"digital-painting"
 			},
 			{
-				"title":"2014", 
+				"title":"2014",
 				"description":"mother, painted in Photoshop",
 				"bigpic":"images/digital art/digital painting/2014-04 mother.png",
 				"smallpic": "images/digital art/digital painting/2014-04 mother-s.png",
@@ -672,14 +722,9 @@
 
 		]
 	},
-	"traditional art": {
-		"type":"main",
-		"section":"traditional-art",
-		"project menu": false
-	},
 	"painting": {
 		"type":"sub",
-		"section": "traditional-art",
+		"section": "art",
 		"project menu": false,
 		"content": [
 			{
@@ -756,7 +801,7 @@
 				"title":"2014",
 				"description":"figure 2, acrylic on canvas, November 2014",
 				"bigpic":"images/traditional art/paintings/2014.11 figure2.jpg",
-				"smallpic": "images/traditional art/paintings/2014.11 figure2-s.jpg",				
+				"smallpic": "images/traditional art/paintings/2014.11 figure2-s.jpg",
 				"group":"painting"
 			},
 			{
@@ -770,28 +815,28 @@
 				"title":"2014",
 				"description":"Apathy No.10 (Formation), acrylic on canvas, November 2014 [Senior Project]",
 				"bigpic":"images/traditional art/paintings/2014.10 sp 10.jpg",
-				"smallpic": "images/traditional art/paintings/2014.10 sp 10-s.jpg",				
+				"smallpic": "images/traditional art/paintings/2014.10 sp 10-s.jpg",
 				"group":"painting"
 			},
 			{
 				"title":"2014",
 				"description":"Apathy No.9 (The Escape), acrylic on canvas, November 2014 [Senior Project]",
 				"bigpic":"images/traditional art/paintings/2014.10 sp 9.jpg",
-				"smallpic": "images/traditional art/paintings/2014.10 sp 9-s.jpg",				
+				"smallpic": "images/traditional art/paintings/2014.10 sp 9-s.jpg",
 				"group":"painting"
 			},
 			{
 				"title":"2014",
 				"description":"Apathy No.5 (The Dampening Effects of Repetition), acrylic on canvas, October 2014 [Senior Project]",
 				"bigpic":"images/traditional art/paintings/2014.10 sp 5.jpg",
-				"smallpic": "images/traditional art/paintings/2014.10 sp 5-s.jpg",				
+				"smallpic": "images/traditional art/paintings/2014.10 sp 5-s.jpg",
 				"group":"painting"
 			},
 			{
 				"title":"2014",
 				"description":"Apathy No.4, acrylic on canvas, September 2014 [Senior Project]",
 				"bigpic":"images/traditional art/paintings/2014.10 sp 4.jpg",
-				"smallpic": "images/traditional art/paintings/2014.10 sp 4-s.jpg",				
+				"smallpic": "images/traditional art/paintings/2014.10 sp 4-s.jpg",
 				"group":"painting"
 			},
 			{
@@ -847,7 +892,7 @@
 	},
 	"figure": {
 		"type":"sub",
-		"section":"traditional-art",
+		"section":"art",
 		"project menu": false,
 		"content":[
 			{
@@ -938,7 +983,7 @@
 	},
 	"sketches": {
 		"type":"sub",
-		"section":"traditional-art",
+		"section":"art",
 		"project menu": false,
 		"description":"I love sketching! I sketch all the time and I really, really value the importance of it. Here are just a few pages from some of my past sketchbooks - check back soon for updates with more recent stuff!",
 		"content":[
@@ -1053,6 +1098,7 @@
 		"type":"single",
 		"section":"misc",
 		"project menu": true,
+		"active": false,
 		"content":
 		[
 			{
@@ -1180,7 +1226,7 @@
 					}
 
 				]
-			}, 
+			},
 			{
 				"project-title":"(WO)MAN UP",
 				"thumbnail": "images/misc/woman up/IMG_9721-s.jpg",
@@ -1190,7 +1236,7 @@
 				"project content":
 				[
 					{
-						
+
 						"title":"<img class='play'>",
 						"description":"",
 						"bigpic":"https://vimeo.com/178523349",
@@ -1232,7 +1278,7 @@
 						"smallpic": "images/misc/woman up/tracing-s.jpg",
 						"group":"womanup"
 					}
-					
+
 				]
 			},
 			{
@@ -1283,4 +1329,3 @@
 		]
 	}
 }
-

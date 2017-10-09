@@ -147,7 +147,7 @@ console.log(window.location.hash);
     $.each(data, function(key, val) {
       var model = this;
       var title = key;
-      var type, section, content, isProjectMenu = true, description = "";
+      var type, section, content, isProjectMenu = true, description = "", active = true;
 
       $.each(val, function(key, val){
         if (key==="type") {
@@ -159,9 +159,14 @@ console.log(window.location.hash);
         } else if (key==="project menu") {
           isProjectMenu = val;
         } else if (key==="description") {
-          description=val;
+          description = val;
+        } else if (key=="active") {
+          active = val;
         }
       });
+
+      // Do not create menu options for inactive sections.
+      if (!active) return;
 
       var menuOptionClass;
       var $menuWrapper;
